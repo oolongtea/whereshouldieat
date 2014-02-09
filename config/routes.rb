@@ -2,6 +2,7 @@ Myapp::Application.routes.draw do
 
   root to: 'home#index'
   post '/hungry' => 'home#sms_reply'
+  get'/hungry' => 'home#sms_reply'
 
 #  get "home/index"
   # The priority is based upon order of creation: first created -> highest priority.

@@ -9468,3 +9468,943 @@ ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticit
   /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
 
 
+I, [2014-02-08T06:15:29.191131 #2793]  INFO -- : Started POST "/hungry.json" for 160.39.130.32 at 2014-02-08 06:15:29 +0000
+I, [2014-02-08T06:15:29.754421 #2793]  INFO -- : Processing by HomeController#sms_reply as JSON
+I, [2014-02-08T06:15:29.754808 #2793]  INFO -- :   Parameters: {"From"=>"+17605008735", "home"=>{"From"=>"+17605008735"}}
+I, [2014-02-08T06:15:29.812857 #2793]  INFO -- : Completed 500 Internal Server Error in 58ms
+F, [2014-02-08T06:15:29.817972 #2793] FATAL -- : 
+ActionView::MissingTemplate (Missing template home/sms_reply, application/sms_reply with {:locale=>[:en], :formats=>[:json], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/rails/app/views"
+):
+  app/controllers/home_controller.rb:8:in `sms_reply'
+
+
+I, [2014-02-08T06:16:14.675898 #2790]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 06:16:14 +0000
+I, [2014-02-08T06:16:15.129013 #2790]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T06:16:15.129337 #2790]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM0c951ed7c625c2128b6dffe42cc75fbe", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM0c951ed7c625c2128b6dffe42cc75fbe", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM0c951ed7c625c2128b6dffe42cc75fbe", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T06:16:15.179179 #2790]  INFO -- : Completed 500 Internal Server Error in 49ms
+F, [2014-02-08T06:16:15.183562 #2790] FATAL -- : 
+ActionView::MissingTemplate (Missing template home/sms_reply, application/sms_reply with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/rails/app/views"
+):
+  app/controllers/home_controller.rb:8:in `sms_reply'
+
+
+I, [2014-02-08T06:18:21.274465 #2880]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 06:18:21 +0000
+I, [2014-02-08T06:18:21.537457 #2880]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T06:18:21.537760 #2880]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM50129e1711050d05dcaf9b250965295c", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM50129e1711050d05dcaf9b250965295c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM50129e1711050d05dcaf9b250965295c", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T06:18:21.771627 #2880]  INFO -- : Completed 500 Internal Server Error in 233ms
+F, [2014-02-08T06:18:21.774666 #2880] FATAL -- : 
+Twilio::REST::RequestError (The requested resource /2010-04-01/Accounts/SMS/Messages.json was not found):
+  app/controllers/home_controller.rb:12:in `sms_reply'
+
+
+I, [2014-02-08T06:24:29.305377 #2883]  INFO -- : Started POST "/hungry.json" for 160.39.130.32 at 2014-02-08 06:24:29 +0000
+I, [2014-02-08T06:24:29.563371 #2883]  INFO -- : Processing by HomeController#sms_reply as JSON
+I, [2014-02-08T06:24:29.563618 #2883]  INFO -- :   Parameters: {"From"=>"+17605008735", "home"=>{"From"=>"+17605008735"}}
+I, [2014-02-08T06:24:29.816824 #2883]  INFO -- : Completed 500 Internal Server Error in 253ms
+F, [2014-02-08T06:24:29.819670 #2883] FATAL -- : 
+Twilio::REST::RequestError (The requested resource /2010-04-01/Accounts/SMS/Messages.json was not found):
+  app/controllers/home_controller.rb:12:in `sms_reply'
+
+
+I, [2014-02-08T06:29:13.931312 #3004]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 06:29:13 +0000
+I, [2014-02-08T06:29:14.179573 #3004]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T06:29:14.179843 #3004]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9f65b1013a2fae7e03b6313242af05cb", "Body"=>"Testttt", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM9f65b1013a2fae7e03b6313242af05cb", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9f65b1013a2fae7e03b6313242af05cb", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T06:29:14.372032 #3004]  INFO -- : Completed 500 Internal Server Error in 192ms
+F, [2014-02-08T06:29:14.375128 #3004] FATAL -- : 
+Twilio::REST::RequestError (Authenticate):
+  app/controllers/home_controller.rb:12:in `sms_reply'
+
+
+I, [2014-02-08T06:31:09.917155 #3045]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 06:31:09 +0000
+I, [2014-02-08T06:31:10.467451 #3045]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T06:31:10.468412 #3045]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMf60210ec5cb81e08f80c4783545861cb", "Body"=>"Hi", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMf60210ec5cb81e08f80c4783545861cb", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMf60210ec5cb81e08f80c4783545861cb", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T06:31:10.783808 #3045]  INFO -- : Completed 500 Internal Server Error in 315ms
+F, [2014-02-08T06:31:10.787275 #3045] FATAL -- : 
+Twilio::REST::RequestError (The requested resource /2010-04-01/Accounts/SMS/Messages.json was not found):
+  app/controllers/home_controller.rb:12:in `sms_reply'
+
+
+I, [2014-02-08T06:52:53.761884 #3048]  INFO -- : Started GET "/hungry" for 160.39.130.32 at 2014-02-08 06:52:53 +0000
+F, [2014-02-08T06:52:53.961723 #3048] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/hungry"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-08T06:53:10.810126 #3198]  INFO -- : Started GET "/hungry" for 160.39.130.32 at 2014-02-08 06:53:10 +0000
+F, [2014-02-08T06:53:11.029257 #3198] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/hungry"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-08T06:53:36.704736 #3245]  INFO -- : Started GET "/hungry" for 160.39.130.32 at 2014-02-08 06:53:36 +0000
+I, [2014-02-08T06:53:36.946418 #3245]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T06:53:36.992950 #3245]  INFO -- :   Rendered home/sms_reply.xml.erb (1.1ms)
+I, [2014-02-08T06:53:36.993454 #3245]  INFO -- : Completed 200 OK in 47ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T06:53:49.770679 #3242]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 06:53:49 +0000
+I, [2014-02-08T06:53:49.987561 #3242]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T06:53:49.987813 #3242]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM99aba6eefbc2afaf2478603db98e6737", "Body"=>"Test", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM99aba6eefbc2afaf2478603db98e6737", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM99aba6eefbc2afaf2478603db98e6737", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T06:53:50.030466 #3242]  INFO -- :   Rendered home/sms_reply.xml.erb (1.1ms)
+I, [2014-02-08T06:53:50.031176 #3242]  INFO -- : Completed 200 OK in 43ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T06:55:48.599959 #3245]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 06:55:48 +0000
+I, [2014-02-08T06:55:48.603858 #3245]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T06:55:48.604075 #3245]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMbc86342578262ab82c91948e7d238eaf", "Body"=>"I'm hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMbc86342578262ab82c91948e7d238eaf", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMbc86342578262ab82c91948e7d238eaf", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T06:55:48.605858 #3245]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-08T06:55:48.606252 #3245]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:10:38.648089 #3333]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 07:10:38 +0000
+I, [2014-02-08T07:10:39.052787 #3333]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:10:39.053080 #3333]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM27100af6d172ebfd195be67395cf3301", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM27100af6d172ebfd195be67395cf3301", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM27100af6d172ebfd195be67395cf3301", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:10:40.593768 #3333]  INFO -- : Completed 500 Internal Server Error in 1540ms
+F, [2014-02-08T07:10:40.596801 #3333] FATAL -- : 
+NoMethodError (undefined method `size' for nil:NilClass):
+  app/controllers/home_controller.rb:27:in `sms_reply'
+
+
+I, [2014-02-08T07:15:29.073740 #3429]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 07:15:29 +0000
+I, [2014-02-08T07:15:29.302317 #3429]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:15:29.302555 #3429]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM46a25fa772dc1488d94b1ae3ce27ca10", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM46a25fa772dc1488d94b1ae3ce27ca10", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM46a25fa772dc1488d94b1ae3ce27ca10", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:15:31.839468 #3429]  INFO -- :   Rendered home/sms_reply.xml.erb (3.4ms)
+I, [2014-02-08T07:15:31.840801 #3429]  INFO -- : Completed 200 OK in 2538ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:16:22.324809 #3426]  INFO -- : Started GET "/hungry" for 160.39.130.32 at 2014-02-08 07:16:22 +0000
+I, [2014-02-08T07:16:22.631814 #3426]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:16:25.247122 #3426]  INFO -- :   Rendered home/sms_reply.xml.erb (1.4ms)
+I, [2014-02-08T07:16:25.247979 #3426]  INFO -- : Completed 200 OK in 2616ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:16:28.575442 #3429]  INFO -- : Started GET "/hungry" for 160.39.130.32 at 2014-02-08 07:16:28 +0000
+I, [2014-02-08T07:16:28.585393 #3429]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:16:31.174037 #3429]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T07:16:31.174606 #3429]  INFO -- : Completed 200 OK in 2589ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:16:33.952971 #3426]  INFO -- : Started GET "/hungry" for 160.39.130.32 at 2014-02-08 07:16:33 +0000
+I, [2014-02-08T07:16:33.955930 #3426]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:16:36.336062 #3426]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T07:16:36.336672 #3426]  INFO -- : Completed 200 OK in 2380ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:16:38.569094 #3429]  INFO -- : Started GET "/hungry" for 160.39.130.32 at 2014-02-08 07:16:38 +0000
+I, [2014-02-08T07:16:38.571138 #3429]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:16:40.546480 #3429]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-08T07:16:40.546988 #3429]  INFO -- : Completed 200 OK in 1976ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:24:30.365006 #3492]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 07:24:30 +0000
+I, [2014-02-08T07:24:30.913663 #3492]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:24:30.914005 #3492]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMef18b7fad217b6631030baad8e57cd43", "Body"=>"What", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMef18b7fad217b6631030baad8e57cd43", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMef18b7fad217b6631030baad8e57cd43", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:24:31.007215 #3492]  INFO -- : Completed 500 Internal Server Error in 93ms
+F, [2014-02-08T07:24:31.011060 #3492] FATAL -- : 
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  app/controllers/home_controller.rb:13:in `sms_reply'
+
+
+I, [2014-02-08T07:24:47.434156 #3489]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 07:24:47 +0000
+I, [2014-02-08T07:24:47.996776 #3489]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:24:47.997106 #3489]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM74073c96ef457225cdc89f3ff48f6c46", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM74073c96ef457225cdc89f3ff48f6c46", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM74073c96ef457225cdc89f3ff48f6c46", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:24:48.034172 #3489]  INFO -- : Completed 500 Internal Server Error in 37ms
+F, [2014-02-08T07:24:48.037814 #3489] FATAL -- : 
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  app/controllers/home_controller.rb:13:in `sms_reply'
+
+
+I, [2014-02-08T07:27:44.565406 #3543]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 07:27:44 +0000
+I, [2014-02-08T07:27:44.868760 #3543]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:27:44.868992 #3543]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9995fa42927c37e3e554b206e0de3cd2", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM9995fa42927c37e3e554b206e0de3cd2", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9995fa42927c37e3e554b206e0de3cd2", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:27:47.325995 #3543]  INFO -- :   Rendered home/sms_reply.xml.erb (1.0ms)
+I, [2014-02-08T07:27:47.326611 #3543]  INFO -- : Completed 200 OK in 2457ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:27:59.562469 #3541]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 07:27:59 +0000
+I, [2014-02-08T07:27:59.799597 #3541]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:27:59.799887 #3541]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM83090297d64d403218506d700764a53e", "Body"=>"What", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM83090297d64d403218506d700764a53e", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM83090297d64d403218506d700764a53e", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:28:02.217313 #3541]  INFO -- :   Rendered home/sms_reply.xml.erb (1.1ms)
+I, [2014-02-08T07:28:02.217921 #3541]  INFO -- : Completed 200 OK in 2418ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:28:13.975533 #3543]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 07:28:13 +0000
+I, [2014-02-08T07:28:13.980121 #3543]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:28:13.980437 #3543]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM999be9c2567c5bc1a811afd16c24dd03", "Body"=>"Thirsty", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM999be9c2567c5bc1a811afd16c24dd03", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM999be9c2567c5bc1a811afd16c24dd03", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:28:16.350961 #3543]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T07:28:16.351450 #3543]  INFO -- : Completed 200 OK in 2371ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:29:57.444785 #3577]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 07:29:57 +0000
+I, [2014-02-08T07:29:57.668301 #3577]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:29:57.668579 #3577]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMa42cb4b7a915fd218ce4482d2b219066", "Body"=>"Thirsty", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMa42cb4b7a915fd218ce4482d2b219066", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMa42cb4b7a915fd218ce4482d2b219066", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:30:00.414131 #3577]  INFO -- :   Rendered home/sms_reply.xml.erb (1.0ms)
+I, [2014-02-08T07:30:00.414939 #3577]  INFO -- : Completed 200 OK in 2746ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:30:12.779902 #3574]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 07:30:12 +0000
+I, [2014-02-08T07:30:13.089782 #3574]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:30:13.090017 #3574]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM14e06ebac6dbd36df9f25e6ac5e842d3", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM14e06ebac6dbd36df9f25e6ac5e842d3", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM14e06ebac6dbd36df9f25e6ac5e842d3", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:30:15.859745 #3574]  INFO -- :   Rendered home/sms_reply.xml.erb (1.0ms)
+I, [2014-02-08T07:30:15.860350 #3574]  INFO -- : Completed 200 OK in 2770ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:30:26.212822 #3577]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-08 07:30:26 +0000
+I, [2014-02-08T07:30:26.216387 #3577]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:30:26.216569 #3577]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM1aa39b816f2ee45093b37bc574113ff9", "Body"=>"What", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM1aa39b816f2ee45093b37bc574113ff9", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM1aa39b816f2ee45093b37bc574113ff9", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T07:30:26.218525 #3577]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T07:30:26.219739 #3577]  INFO -- : Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:48:27.024358 #3574]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 07:48:27 +0000
+I, [2014-02-08T07:48:27.028083 #3574]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:48:27.028282 #3574]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6bab59e3f27c32fc1d91a50e12de59af", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6bab59e3f27c32fc1d91a50e12de59af", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6bab59e3f27c32fc1d91a50e12de59af", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T07:48:29.477928 #3574]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T07:48:29.478421 #3574]  INFO -- : Completed 200 OK in 2450ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:49:10.902009 #3577]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 07:49:10 +0000
+I, [2014-02-08T07:49:10.912632 #3577]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:49:10.912971 #3577]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMecbeb86818f3afbb1825d1eb887e32e4", "Body"=>"Thirsty", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMecbeb86818f3afbb1825d1eb887e32e4", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMecbeb86818f3afbb1825d1eb887e32e4", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T07:49:13.353004 #3577]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T07:49:13.353541 #3577]  INFO -- : Completed 200 OK in 2440ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T07:50:32.794340 #3574]  INFO -- : Started GET "/hungry?body=hungry" for 160.39.130.32 at 2014-02-08 07:50:32 +0000
+I, [2014-02-08T07:50:32.796981 #3574]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:50:32.797097 #3574]  INFO -- :   Parameters: {"body"=>"hungry"}
+I, [2014-02-08T07:50:32.798948 #3574]  INFO -- : Completed 500 Internal Server Error in 2ms
+F, [2014-02-08T07:50:32.801760 #3574] FATAL -- : 
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  app/controllers/home_controller.rb:13:in `sms_reply'
+
+
+I, [2014-02-08T07:50:37.253624 #3577]  INFO -- : Started GET "/hungry" for 160.39.130.32 at 2014-02-08 07:50:37 +0000
+I, [2014-02-08T07:50:37.256244 #3577]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:50:37.258351 #3577]  INFO -- : Completed 500 Internal Server Error in 2ms
+F, [2014-02-08T07:50:37.262064 #3577] FATAL -- : 
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  app/controllers/home_controller.rb:13:in `sms_reply'
+
+
+I, [2014-02-08T07:50:42.660814 #3574]  INFO -- : Started GET "/hungry" for 160.39.130.32 at 2014-02-08 07:50:42 +0000
+I, [2014-02-08T07:50:42.662272 #3574]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T07:50:42.663322 #3574]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-02-08T07:50:42.665576 #3574] FATAL -- : 
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  app/controllers/home_controller.rb:13:in `sms_reply'
+
+
+I, [2014-02-08T09:06:00.188388 #5493]  INFO -- : Started GET "/" for 160.39.130.32 at 2014-02-08 09:06:00 +0000
+I, [2014-02-08T09:06:00.400397 #5496]  INFO -- : Started GET "/" for 160.39.130.32 at 2014-02-08 09:06:00 +0000
+I, [2014-02-08T09:06:00.688817 #5493]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-08T09:06:00.791906 #5493]  INFO -- :   Rendered home/index.html.erb within layouts/application (5.7ms)
+I, [2014-02-08T09:06:00.800070 #5493]  INFO -- : Completed 200 OK in 111ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:06:00.817080 #5493]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 09:06:00 +0000
+I, [2014-02-08T09:06:00.821094 #5493]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:06:00.821339 #5493]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM0dab81183080e33a210d2275a3a40439", "Body"=>"Thirsty", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM0dab81183080e33a210d2275a3a40439", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM0dab81183080e33a210d2275a3a40439", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:06:00.857181 #5496]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-08T09:06:00.902049 #5496]  INFO -- :   Rendered home/index.html.erb within layouts/application (1.3ms)
+I, [2014-02-08T09:06:00.904497 #5496]  INFO -- : Completed 200 OK in 47ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:06:02.450933 #5493]  INFO -- : Completed 500 Internal Server Error in 1629ms
+F, [2014-02-08T09:06:02.454061 #5493] FATAL -- : 
+NoMethodError (undefined method `size' for nil:NilClass):
+  app/controllers/home_controller.rb:43:in `sms_reply'
+
+
+I, [2014-02-08T09:06:16.878878 #5521]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 09:06:16 +0000
+I, [2014-02-08T09:06:17.271380 #5521]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:06:17.271645 #5521]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM41b84678ce3c76d9abc4c4e8bbee04ad", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM41b84678ce3c76d9abc4c4e8bbee04ad", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM41b84678ce3c76d9abc4c4e8bbee04ad", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:06:18.916233 #5521]  INFO -- : Completed 500 Internal Server Error in 1644ms
+F, [2014-02-08T09:06:18.919463 #5521] FATAL -- : 
+NoMethodError (undefined method `size' for nil:NilClass):
+  app/controllers/home_controller.rb:43:in `sms_reply'
+
+
+I, [2014-02-08T09:06:27.607363 #5524]  INFO -- : Started GET "/" for 160.39.130.32 at 2014-02-08 09:06:27 +0000
+I, [2014-02-08T09:06:27.866143 #5524]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-08T09:06:27.920043 #5524]  INFO -- :   Rendered home/index.html.erb within layouts/application (1.3ms)
+I, [2014-02-08T09:06:27.922626 #5524]  INFO -- : Completed 200 OK in 55ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:13:01.412820 #5631]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 09:13:01 +0000
+I, [2014-02-08T09:13:01.668766 #5631]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:13:01.669020 #5631]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMee77d0e01feba1ad6ff42d0256cfb18f", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMee77d0e01feba1ad6ff42d0256cfb18f", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMee77d0e01feba1ad6ff42d0256cfb18f", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:13:03.319689 #5631]  INFO -- : Completed 500 Internal Server Error in 1650ms
+F, [2014-02-08T09:13:03.322703 #5631] FATAL -- : 
+NoMethodError (undefined method `size' for nil:NilClass):
+  app/controllers/home_controller.rb:44:in `sms_reply'
+
+
+I, [2014-02-08T09:14:29.697071 #5667]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-08 09:14:29 +0000
+I, [2014-02-08T09:14:30.046959 #5667]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:14:30.047199 #5667]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM213e61199d7759117cbc73a1d5cfaa3c", "Body"=>"Hungry", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM213e61199d7759117cbc73a1d5cfaa3c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM213e61199d7759117cbc73a1d5cfaa3c", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:14:31.701782 #5667]  INFO -- :   Rendered home/sms_reply.xml.erb (1.1ms)
+I, [2014-02-08T09:14:31.702520 #5667]  INFO -- : Completed 200 OK in 1655ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:14:52.164983 #5665]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 09:14:52 +0000
+I, [2014-02-08T09:14:52.379100 #5665]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:14:52.379372 #5665]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6f6f09b6df2a2bccc98c25156bcbf389", "Body"=>"hungry, Los Angeles, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6f6f09b6df2a2bccc98c25156bcbf389", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6f6f09b6df2a2bccc98c25156bcbf389", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:14:54.015437 #5665]  INFO -- :   Rendered home/sms_reply.xml.erb (1.0ms)
+I, [2014-02-08T09:14:54.016068 #5665]  INFO -- : Completed 200 OK in 1636ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:15:35.044275 #5667]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 09:15:35 +0000
+I, [2014-02-08T09:15:35.047869 #5667]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:15:35.048034 #5667]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6b8e7c694d55d5ee23d1c7d524431205", "Body"=>"thirsty, irvine, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6b8e7c694d55d5ee23d1c7d524431205", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6b8e7c694d55d5ee23d1c7d524431205", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:15:37.027173 #5667]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:15:37.027742 #5667]  INFO -- : Completed 200 OK in 1979ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:19:40.316811 #5704]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 09:19:40 +0000
+I, [2014-02-08T09:19:40.513732 #5704]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:19:40.514001 #5704]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6f9c6b90289c28dc031bf807f3655ce1", "Body"=>"thirsty, irvine, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6f9c6b90289c28dc031bf807f3655ce1", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6f9c6b90289c28dc031bf807f3655ce1", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:19:40.555919 #5704]  INFO -- : Completed 500 Internal Server Error in 42ms
+F, [2014-02-08T09:19:40.558894 #5704] FATAL -- : 
+URI::InvalidURIError (bad URI(is not URI?): https://maps.googleapis.com/maps/api/place/textsearch/json?query=bars+in+ irvine CA&radius=500&key=AIzaSyDt7rFMhlgsyWvtQUjLDI4Im5d72Jdq_4s&sensor=false):
+  app/controllers/home_controller.rb:32:in `sms_reply'
+
+
+I, [2014-02-08T09:20:47.191788 #5757]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 09:20:47 +0000
+I, [2014-02-08T09:20:47.570206 #5757]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:20:47.570665 #5757]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMdfe7418675ff3ae04a4224baf97575be", "Body"=>"thirsty, irvine, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMdfe7418675ff3ae04a4224baf97575be", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMdfe7418675ff3ae04a4224baf97575be", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:20:47.647940 #5757]  INFO -- : Completed 500 Internal Server Error in 77ms
+F, [2014-02-08T09:20:47.653152 #5757] FATAL -- : 
+URI::InvalidURIError (bad URI(is not URI?): https://maps.googleapis.com/maps/api/place/textsearch/json?query=bars+in+ irvine+ CA&radius=500&key=AIzaSyDt7rFMhlgsyWvtQUjLDI4Im5d72Jdq_4s&sensor=false):
+  app/controllers/home_controller.rb:32:in `sms_reply'
+
+
+I, [2014-02-08T09:21:37.762151 #5789]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 09:21:37 +0000
+I, [2014-02-08T09:21:38.086776 #5789]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:21:38.087051 #5789]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMc1d85437bb9e724630f2272c9ca853c3", "Body"=>"thirsty, irvine, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMc1d85437bb9e724630f2272c9ca853c3", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMc1d85437bb9e724630f2272c9ca853c3", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:21:40.406753 #5789]  INFO -- :   Rendered home/sms_reply.xml.erb (1.2ms)
+I, [2014-02-08T09:21:40.407388 #5789]  INFO -- : Completed 200 OK in 2320ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:21:52.951644 #5791]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 09:21:52 +0000
+I, [2014-02-08T09:21:53.279606 #5791]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:21:53.280149 #5791]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM297bebad4d9763d55c96c5463c25e6a6", "Body"=>"thirsty, irvine, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM297bebad4d9763d55c96c5463c25e6a6", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM297bebad4d9763d55c96c5463c25e6a6", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:21:55.884830 #5791]  INFO -- :   Rendered home/sms_reply.xml.erb (1.2ms)
+I, [2014-02-08T09:21:55.885665 #5791]  INFO -- : Completed 200 OK in 2605ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:22:16.400484 #5789]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 09:22:16 +0000
+I, [2014-02-08T09:22:16.403683 #5789]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:22:16.403840 #5789]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM4ba607b9a00fffbf3b5663d2fb04aa4c", "Body"=>"thirsty, Los Angeles, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM4ba607b9a00fffbf3b5663d2fb04aa4c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM4ba607b9a00fffbf3b5663d2fb04aa4c", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:22:16.405590 #5789]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-02-08T09:22:16.408621 #5789] FATAL -- : 
+URI::InvalidURIError (bad URI(is not URI?): https://maps.googleapis.com/maps/api/place/textsearch/json?query=bars+in+Los Angeles+CA&radius=500&key=AIzaSyDt7rFMhlgsyWvtQUjLDI4Im5d72Jdq_4s&sensor=false):
+  app/controllers/home_controller.rb:32:in `sms_reply'
+
+
+I, [2014-02-08T09:23:32.156320 #5791]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-08 09:23:32 +0000
+I, [2014-02-08T09:23:32.159551 #5791]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:23:32.159732 #5791]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM649cef5b2d4718dba5facbf6d5f71c72", "Body"=>"thirsty, Los+Angeles, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM649cef5b2d4718dba5facbf6d5f71c72", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM649cef5b2d4718dba5facbf6d5f71c72", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:23:34.772488 #5791]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:23:34.772992 #5791]  INFO -- : Completed 200 OK in 2613ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:24:06.209619 #5789]  INFO -- : Started POST "/azenv.php?rand=f926a9f32f6edddc52cd7745aec6640f" for 5.178.86.77 at 2014-02-08 09:24:06 +0000
+F, [2014-02-08T09:24:06.212514 #5789] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/azenv.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-08T09:25:01.158572 #5791]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 09:25:01 +0000
+I, [2014-02-08T09:25:01.161030 #5791]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:25:01.161216 #5791]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMffb4dde509e8fd962ba9273f8c55ba20", "Body"=>"Thirsty, Los+Angeles, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMffb4dde509e8fd962ba9273f8c55ba20", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMffb4dde509e8fd962ba9273f8c55ba20", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:25:03.431382 #5791]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-08T09:25:03.431840 #5791]  INFO -- : Completed 200 OK in 2270ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:26:10.706690 #5789]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 09:26:10 +0000
+I, [2014-02-08T09:26:10.708656 #5789]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:26:10.708817 #5789]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9367e9af961d81bd4b4184cd8e65f3fd", "Body"=>"Thirsty, Los+Angeles, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM9367e9af961d81bd4b4184cd8e65f3fd", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9367e9af961d81bd4b4184cd8e65f3fd", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:26:14.010863 #5789]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:26:14.011421 #5789]  INFO -- : Completed 200 OK in 3302ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:26:16.355734 #5791]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 09:26:16 +0000
+I, [2014-02-08T09:26:16.368726 #5791]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:26:16.368963 #5791]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM94328f6827553b88d0e6e591bdc10cbd", "Body"=>"Hungry, New+York, NY", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"PA", "ToState"=>"IN", "SmsSid"=>"SM94328f6827553b88d0e6e591bdc10cbd", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM94328f6827553b88d0e6e591bdc10cbd", "ApiVersion"=>"2010-04-01", "FromCity"=>"NORRISTOWN", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16103083460", "FromZip"=>"19406"}
+I, [2014-02-08T09:26:18.844238 #5791]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:26:18.844740 #5791]  INFO -- : Completed 200 OK in 2476ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:26:45.563376 #5789]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 09:26:45 +0000
+I, [2014-02-08T09:26:45.565437 #5789]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:26:45.565567 #5789]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMfa64a509dbcce0abe9ea8f5192394c42", "Body"=>"Hungry, Los+Angeles, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMfa64a509dbcce0abe9ea8f5192394c42", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMfa64a509dbcce0abe9ea8f5192394c42", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:26:47.941665 #5789]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-08T09:26:47.942158 #5789]  INFO -- : Completed 200 OK in 2376ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:27:12.646552 #5791]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 09:27:12 +0000
+I, [2014-02-08T09:27:12.649070 #5791]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:27:12.649243 #5791]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM2d9a7d810a23f996a5e575666e329130", "Body"=>"Thirsty, Downey, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM2d9a7d810a23f996a5e575666e329130", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM2d9a7d810a23f996a5e575666e329130", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:27:14.951637 #5791]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:27:14.952138 #5791]  INFO -- : Completed 200 OK in 2303ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:27:25.151956 #5789]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 09:27:25 +0000
+I, [2014-02-08T09:27:25.154504 #5789]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:27:25.155542 #5789]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMd20b683f9cf493ad54eab0e8a109bfe7", "Body"=>"Thirsty, Downey, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMd20b683f9cf493ad54eab0e8a109bfe7", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMd20b683f9cf493ad54eab0e8a109bfe7", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:27:27.374883 #5789]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:27:27.375424 #5789]  INFO -- : Completed 200 OK in 2220ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:28:02.581654 #5791]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 09:28:02 +0000
+I, [2014-02-08T09:28:02.584234 #5791]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:28:02.584403 #5791]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM69bc0941afb653eb856efa809772d0a9", "Body"=>"Hungry, my+Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM69bc0941afb653eb856efa809772d0a9", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM69bc0941afb653eb856efa809772d0a9", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:28:04.840358 #5791]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:28:04.840907 #5791]  INFO -- : Completed 200 OK in 2256ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:28:43.173796 #5789]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-08 09:28:43 +0000
+I, [2014-02-08T09:28:43.176170 #5789]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:28:43.176342 #5789]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM82a1ec7ea11b802d029baca958093b12", "Body"=>"Hungry, my+Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM82a1ec7ea11b802d029baca958093b12", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM82a1ec7ea11b802d029baca958093b12", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:28:45.389018 #5789]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:28:45.389550 #5789]  INFO -- : Completed 200 OK in 2213ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:32:50.683557 #5836]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 09:32:50 +0000
+I, [2014-02-08T09:32:51.033155 #5836]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:32:51.033425 #5836]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM33e349e6c09ff5ee0ae704460381fbc6", "Body"=>"Hungry, New York, ny", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM33e349e6c09ff5ee0ae704460381fbc6", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM33e349e6c09ff5ee0ae704460381fbc6", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:32:53.430618 #5836]  INFO -- :   Rendered home/sms_reply.xml.erb (1.1ms)
+I, [2014-02-08T09:32:53.433559 #5836]  INFO -- : Completed 200 OK in 2400ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:34:22.662808 #5833]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 09:34:22 +0000
+I, [2014-02-08T09:34:22.929577 #5833]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:34:22.929823 #5833]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6dfa4c84d6db1ba006a37391c0372125", "Body"=>"Hungry, Los Angeles, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6dfa4c84d6db1ba006a37391c0372125", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6dfa4c84d6db1ba006a37391c0372125", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:34:25.698657 #5833]  INFO -- :   Rendered home/sms_reply.xml.erb (1.1ms)
+I, [2014-02-08T09:34:25.699205 #5833]  INFO -- : Completed 200 OK in 2760ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:38:11.643702 #5836]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 09:38:11 +0000
+I, [2014-02-08T09:38:11.646877 #5836]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:38:11.647085 #5836]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMcd1be9724119f0590acedf155e91a121", "Body"=>"Hungry, Los Angeles, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMcd1be9724119f0590acedf155e91a121", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMcd1be9724119f0590acedf155e91a121", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:38:13.955945 #5836]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:38:13.956453 #5836]  INFO -- : Completed 200 OK in 2309ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:38:24.826616 #5833]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 09:38:24 +0000
+I, [2014-02-08T09:38:24.846197 #5833]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:38:24.846479 #5833]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMf49a8d89fcaf2456eeb3dc490fea10a3", "Body"=>"Hungry, Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMf49a8d89fcaf2456eeb3dc490fea10a3", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMf49a8d89fcaf2456eeb3dc490fea10a3", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:38:27.103076 #5833]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-08T09:38:27.103548 #5833]  INFO -- : Completed 200 OK in 2257ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:38:34.864503 #5836]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 09:38:34 +0000
+I, [2014-02-08T09:38:34.866791 #5836]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:38:34.866967 #5836]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM4cf2e3036d00a2195883fa9de9325a1c", "Body"=>"Hungry, Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM4cf2e3036d00a2195883fa9de9325a1c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM4cf2e3036d00a2195883fa9de9325a1c", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:38:37.070612 #5836]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:38:37.071131 #5836]  INFO -- : Completed 200 OK in 2204ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:38:42.027398 #5833]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-08 09:38:42 +0000
+I, [2014-02-08T09:38:42.029615 #5833]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:38:42.029765 #5833]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6353824d9ea2b96b946ea2709ea8a299", "Body"=>"Hungry, Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6353824d9ea2b96b946ea2709ea8a299", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6353824d9ea2b96b946ea2709ea8a299", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:38:44.202703 #5833]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:38:44.203204 #5833]  INFO -- : Completed 200 OK in 2173ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:39:26.134934 #5836]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-08 09:39:26 +0000
+I, [2014-02-08T09:39:26.137420 #5836]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:39:26.137591 #5836]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM42fa1c69d63171f6eb8216ff6f243e22", "Body"=>"Thirsty, Honolulu, HI", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"HI", "ToState"=>"IN", "SmsSid"=>"SM42fa1c69d63171f6eb8216ff6f243e22", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM42fa1c69d63171f6eb8216ff6f243e22", "ApiVersion"=>"2010-04-01", "FromCity"=>"HONOLULU", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18083936123", "FromZip"=>"96821"}
+I, [2014-02-08T09:39:28.660900 #5836]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:39:28.661456 #5836]  INFO -- : Completed 200 OK in 2524ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:39:51.868004 #5833]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 09:39:51 +0000
+I, [2014-02-08T09:39:51.870673 #5833]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:39:51.870958 #5833]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM99c4543cefcecf528d05414b0da693da", "Body"=>"Hungry, Honolulu, HI", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"HI", "ToState"=>"IN", "SmsSid"=>"SM99c4543cefcecf528d05414b0da693da", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM99c4543cefcecf528d05414b0da693da", "ApiVersion"=>"2010-04-01", "FromCity"=>"HONOLULU", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18083936123", "FromZip"=>"96821"}
+I, [2014-02-08T09:39:54.231976 #5833]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:39:54.232428 #5833]  INFO -- : Completed 200 OK in 2361ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:44:02.549653 #5900]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 09:44:02 +0000
+I, [2014-02-08T09:44:02.857013 #5900]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:44:02.857623 #5900]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM28ce359cf6e9cdd993a12dad4cd8fa9e", "Body"=>"Hungry, New York, ny", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM28ce359cf6e9cdd993a12dad4cd8fa9e", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM28ce359cf6e9cdd993a12dad4cd8fa9e", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T09:44:05.183802 #5900]  INFO -- :   Rendered home/sms_reply.xml.erb (1.1ms)
+I, [2014-02-08T09:44:05.184437 #5900]  INFO -- : Completed 200 OK in 2326ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:45:01.589601 #5897]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 09:45:01 +0000
+I, [2014-02-08T09:45:02.090440 #5897]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:45:02.090691 #5897]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6fc7ec7a3e7da6e7c798303bdb6335d9", "Body"=>"Hungry, Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6fc7ec7a3e7da6e7c798303bdb6335d9", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6fc7ec7a3e7da6e7c798303bdb6335d9", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:45:04.369003 #5897]  INFO -- :   Rendered home/sms_reply.xml.erb (0.9ms)
+I, [2014-02-08T09:45:04.369556 #5897]  INFO -- : Completed 200 OK in 2279ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:45:11.277860 #5900]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 09:45:11 +0000
+I, [2014-02-08T09:45:11.281138 #5900]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:45:11.281332 #5900]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMaf1f3489dc611a93d2d84eab9e9a908c", "Body"=>"Hungry, Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMaf1f3489dc611a93d2d84eab9e9a908c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMaf1f3489dc611a93d2d84eab9e9a908c", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:45:13.510275 #5900]  INFO -- :   Rendered home/sms_reply.xml.erb (0.3ms)
+I, [2014-02-08T09:45:13.510816 #5900]  INFO -- : Completed 200 OK in 2229ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:45:20.227299 #5897]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 09:45:20 +0000
+I, [2014-02-08T09:45:20.230633 #5897]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:45:20.230832 #5897]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM173ccf6bc670970286086d3176967451", "Body"=>"Hungry, Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM173ccf6bc670970286086d3176967451", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM173ccf6bc670970286086d3176967451", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:45:22.414228 #5897]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:45:22.414688 #5897]  INFO -- : Completed 200 OK in 2184ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:45:27.757961 #5900]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 09:45:27 +0000
+I, [2014-02-08T09:45:27.760177 #5900]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:45:27.760347 #5900]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM59f3ae4b7d1482a182807219d7ce4093", "Body"=>"Hungry, Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM59f3ae4b7d1482a182807219d7ce4093", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM59f3ae4b7d1482a182807219d7ce4093", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:45:29.932851 #5900]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:45:29.933308 #5900]  INFO -- : Completed 200 OK in 2173ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:45:42.478786 #5897]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 09:45:42 +0000
+I, [2014-02-08T09:45:42.480812 #5897]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:45:42.480990 #5897]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM87b53c3fef05dfdc32ac75ac8917e7bd", "Body"=>"Huntington Beach , Downey, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM87b53c3fef05dfdc32ac75ac8917e7bd", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM87b53c3fef05dfdc32ac75ac8917e7bd", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:45:44.086994 #5897]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:45:44.087490 #5897]  INFO -- : Completed 200 OK in 1606ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:46:11.262228 #5900]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 09:46:11 +0000
+I, [2014-02-08T09:46:11.264682 #5900]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:46:11.264847 #5900]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM2a3915d9c7cf980cb42b6d68989a28d9", "Body"=>"Hungry, Huntington Beach, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM2a3915d9c7cf980cb42b6d68989a28d9", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM2a3915d9c7cf980cb42b6d68989a28d9", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:46:13.739214 #5900]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:46:13.739714 #5900]  INFO -- : Completed 200 OK in 2475ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T09:46:24.401093 #5897]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 09:46:24 +0000
+I, [2014-02-08T09:46:24.403443 #5897]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T09:46:24.403633 #5897]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM363d46fd510b833a952f69ad20e6d620", "Body"=>"Hungry, Huntington Beach, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM363d46fd510b833a952f69ad20e6d620", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM363d46fd510b833a952f69ad20e6d620", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T09:46:26.563343 #5897]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T09:46:26.563837 #5897]  INFO -- : Completed 200 OK in 2160ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T10:13:17.760796 #5900]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-08 10:13:17 +0000
+I, [2014-02-08T10:13:17.763445 #5900]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:13:17.763624 #5900]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM03e43653c8b5a5909bd61e486feb7c2c", "Body"=>"Hungry, irvine, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM03e43653c8b5a5909bd61e486feb7c2c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM03e43653c8b5a5909bd61e486feb7c2c", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:13:20.017797 #5900]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T10:13:20.018488 #5900]  INFO -- : Completed 200 OK in 2255ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T10:13:33.235028 #5897]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 10:13:33 +0000
+I, [2014-02-08T10:13:33.247494 #5897]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:13:33.247719 #5897]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMcb298dbc098c3be4c8169fafe1d22ca7", "Body"=>"Whattttt", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMcb298dbc098c3be4c8169fafe1d22ca7", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMcb298dbc098c3be4c8169fafe1d22ca7", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:13:33.248936 #5897]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-02-08T10:13:33.253525 #5897] FATAL -- : 
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/home_controller.rb:17:in `sms_reply'
+
+
+I, [2014-02-08T10:16:25.569469 #5985]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 10:16:25 +0000
+I, [2014-02-08T10:16:25.833350 #5985]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:16:25.833630 #5985]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM851679a54c0e0291c80436fb17a7e4eb", "Body"=>"Whattt", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM851679a54c0e0291c80436fb17a7e4eb", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM851679a54c0e0291c80436fb17a7e4eb", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:16:27.486328 #5985]  INFO -- :   Rendered home/sms_reply.xml.erb (1.0ms)
+I, [2014-02-08T10:16:27.486858 #5985]  INFO -- : Completed 200 OK in 1653ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T10:17:12.708015 #6022]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 10:17:12 +0000
+I, [2014-02-08T10:17:12.932281 #6022]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:17:12.932509 #6022]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM421a84380ed17f7eb6e392232e3983f3", "Body"=>"What", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM421a84380ed17f7eb6e392232e3983f3", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM421a84380ed17f7eb6e392232e3983f3", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:17:14.559618 #6022]  INFO -- :   Rendered home/sms_reply.xml.erb (2.4ms)
+I, [2014-02-08T10:17:14.561378 #6022]  INFO -- : Completed 200 OK in 1629ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T10:34:24.289702 #6058]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 10:34:24 +0000
+I, [2014-02-08T10:34:24.508928 #6058]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:34:24.509329 #6058]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM432fc145f018a904b4f686eb638c551d", "Body"=>"hungry, San Marcos, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM432fc145f018a904b4f686eb638c551d", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM432fc145f018a904b4f686eb638c551d", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:34:24.552673 #6058]  INFO -- : Completed 500 Internal Server Error in 43ms
+F, [2014-02-08T10:34:24.555901 #6058] FATAL -- : 
+URI::InvalidURIError (bad URI(is not URI?): https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+San Marcos+Ca&radius=500&key=AIzaSyDt7rFMhlgsyWvtQUjLDI4Im5d72Jdq_4s&sensor=false):
+  app/controllers/home_controller.rb:32:in `sms_reply'
+
+
+I, [2014-02-08T10:38:34.251880 #6130]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 10:38:34 +0000
+I, [2014-02-08T10:38:34.652218 #6130]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:38:34.652459 #6130]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMbc07d2b189fd66fe9b960d90625e2cff", "Body"=>"hungry, San Marcos, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMbc07d2b189fd66fe9b960d90625e2cff", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMbc07d2b189fd66fe9b960d90625e2cff", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:38:36.893596 #6130]  INFO -- :   Rendered home/sms_reply.xml.erb (0.9ms)
+I, [2014-02-08T10:38:36.894227 #6130]  INFO -- : Completed 200 OK in 2242ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T10:38:50.505602 #6127]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 10:38:50 +0000
+I, [2014-02-08T10:38:50.698313 #6127]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:38:50.698581 #6127]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM10308ac12540b3e8cba2aba1b63ef02e", "Body"=>"Whattttt", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM10308ac12540b3e8cba2aba1b63ef02e", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM10308ac12540b3e8cba2aba1b63ef02e", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:38:50.735598 #6127]  INFO -- : Completed 500 Internal Server Error in 37ms
+F, [2014-02-08T10:38:50.739034 #6127] FATAL -- : 
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/home_controller.rb:17:in `sms_reply'
+
+
+I, [2014-02-08T10:40:19.587007 #6180]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-08 10:40:19 +0000
+I, [2014-02-08T10:40:19.795043 #6180]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:40:19.795265 #6180]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMfbf6c9930c1e7d1fa7e0d68731909531", "Body"=>"Whatttt", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMfbf6c9930c1e7d1fa7e0d68731909531", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMfbf6c9930c1e7d1fa7e0d68731909531", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:40:21.455555 #6180]  INFO -- :   Rendered home/sms_reply.xml.erb (0.9ms)
+I, [2014-02-08T10:40:21.456102 #6180]  INFO -- : Completed 200 OK in 1661ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T10:40:37.548441 #6178]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-08 10:40:37 +0000
+I, [2014-02-08T10:40:37.864172 #6178]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:40:37.864408 #6178]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM2f019d2fc91f9408e16395820e6863a6", "Body"=>"Hungry, San Marcos, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM2f019d2fc91f9408e16395820e6863a6", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM2f019d2fc91f9408e16395820e6863a6", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:40:40.110534 #6178]  INFO -- :   Rendered home/sms_reply.xml.erb (1.0ms)
+I, [2014-02-08T10:40:40.111095 #6178]  INFO -- : Completed 200 OK in 2246ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T10:48:06.771156 #6180]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 10:48:06 +0000
+I, [2014-02-08T10:48:06.774592 #6180]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:48:06.774766 #6180]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM90db8f9bba8170d82a935273974d59e4", "Body"=>"Hungry, San Diego, Ca", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM90db8f9bba8170d82a935273974d59e4", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM90db8f9bba8170d82a935273974d59e4", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T10:48:09.235992 #6180]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T10:48:09.236452 #6180]  INFO -- : Completed 200 OK in 2461ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T10:58:17.465534 #6178]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-08 10:58:17 +0000
+I, [2014-02-08T10:58:17.469154 #6178]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T10:58:17.469372 #6178]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMcc835d6c3b06fc33ab4541144a075cd5", "Body"=>"Thirsty, New York, NY", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"PA", "ToState"=>"IN", "SmsSid"=>"SMcc835d6c3b06fc33ab4541144a075cd5", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMcc835d6c3b06fc33ab4541144a075cd5", "ApiVersion"=>"2010-04-01", "FromCity"=>"NORRISTOWN", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16103083460", "FromZip"=>"19406"}
+I, [2014-02-08T10:58:20.041034 #6178]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T10:58:20.041600 #6178]  INFO -- : Completed 200 OK in 2572ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T11:25:12.285123 #6180]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-08 11:25:12 +0000
+I, [2014-02-08T11:25:12.287249 #6180]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T11:25:12.287400 #6180]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMb36eb50efa661b590dc3d0bcf847a138", "Body"=>"Hungry, San Diego, Ca", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SMb36eb50efa661b590dc3d0bcf847a138", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMb36eb50efa661b590dc3d0bcf847a138", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T11:25:14.627986 #6180]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T11:25:14.628415 #6180]  INFO -- : Completed 200 OK in 2341ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T13:35:55.295418 #6178]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 13:35:55 +0000
+I, [2014-02-08T13:35:55.299233 #6178]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T13:35:55.299419 #6178]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM62c4cea374c880a5f8c4b498a8498306", "Body"=>"Hungry, New York, New York", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NC", "ToState"=>"IN", "SmsSid"=>"SM62c4cea374c880a5f8c4b498a8498306", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM62c4cea374c880a5f8c4b498a8498306", "ApiVersion"=>"2010-04-01", "FromCity"=>"RALEIGH", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19197444337", "FromZip"=>"27608"}
+I, [2014-02-08T13:35:55.301343 #6178]  INFO -- : Completed 500 Internal Server Error in 2ms
+F, [2014-02-08T13:35:55.314471 #6178] FATAL -- : 
+URI::InvalidURIError (bad URI(is not URI?): https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+New+York+New York&radius=500&key=AIzaSyDt7rFMhlgsyWvtQUjLDI4Im5d72Jdq_4s&sensor=false):
+  app/controllers/home_controller.rb:32:in `sms_reply'
+
+
+I, [2014-02-08T15:33:20.791250 #6180]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 15:33:20 +0000
+I, [2014-02-08T15:33:20.798597 #6180]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T15:33:20.798820 #6180]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM16505884c883897c92418ae661b9b3bd", "Body"=>"Hungry, San Diego, Ca", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM16505884c883897c92418ae661b9b3bd", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM16505884c883897c92418ae661b9b3bd", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T15:33:23.215136 #6180]  INFO -- :   Rendered home/sms_reply.xml.erb (0.3ms)
+I, [2014-02-08T15:33:23.215589 #6180]  INFO -- : Completed 200 OK in 2416ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T15:44:26.184139 #6178]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 15:44:26 +0000
+I, [2014-02-08T15:44:26.185931 #6178]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T15:44:26.186064 #6178]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM07472436bd72f3cb1bcd378b7163ef4a", "Body"=>"Hungry, New York, ny", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM07472436bd72f3cb1bcd378b7163ef4a", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM07472436bd72f3cb1bcd378b7163ef4a", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T15:44:30.718301 #6178]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T15:44:30.718848 #6178]  INFO -- : Completed 200 OK in 4533ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T15:45:37.057115 #6180]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 15:45:37 +0000
+I, [2014-02-08T15:45:37.059856 #6180]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T15:45:37.060046 #6180]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM0efff74ab1432003766e1e0fb4e430d4", "Body"=>"Hungry, New York, ny", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NC", "ToState"=>"IN", "SmsSid"=>"SM0efff74ab1432003766e1e0fb4e430d4", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM0efff74ab1432003766e1e0fb4e430d4", "ApiVersion"=>"2010-04-01", "FromCity"=>"RALEIGH", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19197444337", "FromZip"=>"27608"}
+I, [2014-02-08T15:45:39.436071 #6180]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T15:45:39.436555 #6180]  INFO -- : Completed 200 OK in 2376ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T16:43:48.334820 #6178]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 16:43:48 +0000
+I, [2014-02-08T16:43:48.338970 #6178]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T16:43:48.339275 #6178]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMd83cdf66808d0a75a56376d4691217be", "Body"=>"Hungry, corona. Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMd83cdf66808d0a75a56376d4691217be", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMd83cdf66808d0a75a56376d4691217be", "ApiVersion"=>"2010-04-01", "FromCity"=>"MIRA LOMA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19517276496", "FromZip"=>"91752"}
+I, [2014-02-08T16:43:48.342405 #6178]  INFO -- : Completed 500 Internal Server Error in 2ms
+F, [2014-02-08T16:43:48.346914 #6178] FATAL -- : 
+TypeError (no implicit conversion of nil into String):
+  app/controllers/home_controller.rb:23:in `+'
+  app/controllers/home_controller.rb:23:in `sms_reply'
+
+
+I, [2014-02-08T16:44:16.660145 #6180]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-08 16:44:16 +0000
+I, [2014-02-08T16:44:16.662593 #6180]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T16:44:16.662779 #6180]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMd76d32743361f90e5fdcfea202287a19", "Body"=>"Hungry, Cincinnati, OH", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMd76d32743361f90e5fdcfea202287a19", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMd76d32743361f90e5fdcfea202287a19", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T16:44:18.681017 #6180]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T16:44:18.681502 #6180]  INFO -- : Completed 200 OK in 2018ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T16:47:21.722325 #6178]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 16:47:21 +0000
+I, [2014-02-08T16:47:21.724245 #6178]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T16:47:21.724400 #6178]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6d377e7d905cfa08364051de90e8898f", "Body"=>"Hungry,  Anaheim, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6d377e7d905cfa08364051de90e8898f", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6d377e7d905cfa08364051de90e8898f", "ApiVersion"=>"2010-04-01", "FromCity"=>"MIRA LOMA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19517276496", "FromZip"=>"91752"}
+I, [2014-02-08T16:47:23.751608 #6178]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T16:47:23.752127 #6178]  INFO -- : Completed 200 OK in 2028ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T16:47:59.971819 #6180]  INFO -- : Started GET "/wp-admin/install.php" for 146.185.156.136 at 2014-02-08 16:47:59 +0000
+F, [2014-02-08T16:47:59.975130 #6180] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/wp-admin/install.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-08T16:48:13.481155 #6178]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 16:48:13 +0000
+I, [2014-02-08T16:48:13.483376 #6178]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T16:48:13.483528 #6178]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6802fe912800303eaae84a3af0e9a0be", "Body"=>"hungry, Cincinnati, OH", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6802fe912800303eaae84a3af0e9a0be", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6802fe912800303eaae84a3af0e9a0be", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448479", "FromZip"=>"90242"}
+I, [2014-02-08T16:48:15.460977 #6178]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T16:48:15.461491 #6178]  INFO -- : Completed 200 OK in 1978ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T16:48:27.104706 #6180]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-08 16:48:27 +0000
+I, [2014-02-08T16:48:27.106889 #6180]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T16:48:27.107066 #6180]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6cb748b80237b33b72b02a5684dc436f", "Body"=>"Hungry, Corona, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM6cb748b80237b33b72b02a5684dc436f", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6cb748b80237b33b72b02a5684dc436f", "ApiVersion"=>"2010-04-01", "FromCity"=>"MIRA LOMA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19517276496", "FromZip"=>"91752"}
+I, [2014-02-08T16:48:29.117265 #6180]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-08T16:48:29.117699 #6180]  INFO -- : Completed 200 OK in 2010ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T16:49:27.241692 #6178]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 16:49:27 +0000
+I, [2014-02-08T16:49:27.244269 #6178]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T16:49:27.244436 #6178]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM5c27e969cf474ef6f95d22b17b742d3b", "Body"=>"Thirsty,  Corona, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM5c27e969cf474ef6f95d22b17b742d3b", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM5c27e969cf474ef6f95d22b17b742d3b", "ApiVersion"=>"2010-04-01", "FromCity"=>"MIRA LOMA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19517276496", "FromZip"=>"91752"}
+I, [2014-02-08T16:49:29.219591 #6178]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-08T16:49:29.220024 #6178]  INFO -- : Completed 200 OK in 1975ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T16:50:26.652352 #6180]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 16:50:26 +0000
+I, [2014-02-08T16:50:26.655125 #6180]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T16:50:26.655353 #6180]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMb7051b338a5a1a60c97e02828915d8d3", "Body"=>"thirsty, Cincinnati, OH", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMb7051b338a5a1a60c97e02828915d8d3", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMb7051b338a5a1a60c97e02828915d8d3", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448479", "FromZip"=>"90242"}
+I, [2014-02-08T16:50:28.667726 #6180]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-08T16:50:28.668159 #6180]  INFO -- : Completed 200 OK in 2013ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T17:00:40.268621 #6178]  INFO -- : Started HEAD "/" for 54.234.135.67 at 2014-02-08 17:00:40 +0000
+I, [2014-02-08T17:00:40.270912 #6178]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-08T17:00:40.275132 #6178]  INFO -- :   Rendered home/index.html.erb within layouts/application (1.2ms)
+I, [2014-02-08T17:00:40.278164 #6178]  INFO -- : Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T17:08:15.914768 #6180]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 17:08:15 +0000
+I, [2014-02-08T17:08:15.916981 #6180]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T17:08:15.917141 #6180]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMb8153bddcf8e44af997ad8689f2d27a8", "Body"=>"Hungry, San Diego, Ca", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SMb8153bddcf8e44af997ad8689f2d27a8", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMb8153bddcf8e44af997ad8689f2d27a8", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T17:08:17.965135 #6180]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T17:08:17.965631 #6180]  INFO -- : Completed 200 OK in 2048ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T17:11:42.021764 #7260]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 17:11:42 +0000
+I, [2014-02-08T17:11:42.339598 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T17:11:42.339870 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMc429d3478c2c59a3094a74e491abe6d6", "Body"=>"Hungry, New York, New York", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SMc429d3478c2c59a3094a74e491abe6d6", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMc429d3478c2c59a3094a74e491abe6d6", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T17:11:44.543384 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (1.1ms)
+I, [2014-02-08T17:11:44.544041 #7260]  INFO -- : Completed 200 OK in 2204ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T17:38:55.759926 #7257]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 17:38:55 +0000
+I, [2014-02-08T17:38:55.945231 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T17:38:55.945491 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM135bff2e1ce54a6788990c69b46636d4", "Body"=>"Thirsty, New York, New York", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM135bff2e1ce54a6788990c69b46636d4", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM135bff2e1ce54a6788990c69b46636d4", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T17:38:58.098487 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (1.4ms)
+I, [2014-02-08T17:38:58.099104 #7257]  INFO -- : Completed 200 OK in 2153ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T17:41:38.443169 #7260]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 17:41:38 +0000
+I, [2014-02-08T17:41:38.446831 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T17:41:38.447042 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMf4b063dfaaeb3e2f0f2bc8e9af3ef266", "Body"=>"Hungry, New York, New York", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SMf4b063dfaaeb3e2f0f2bc8e9af3ef266", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMf4b063dfaaeb3e2f0f2bc8e9af3ef266", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T17:41:40.614880 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T17:41:40.615336 #7260]  INFO -- : Completed 200 OK in 2168ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T17:45:30.781819 #7257]  INFO -- : Started HEAD "/" for 2.228.80.61 at 2014-02-08 17:45:30 +0000
+I, [2014-02-08T17:45:30.784986 #7257]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-08T17:45:30.789219 #7257]  INFO -- :   Rendered home/index.html.erb within layouts/application (1.0ms)
+I, [2014-02-08T17:45:30.791979 #7257]  INFO -- : Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:39:50.644323 #7260]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-08 18:39:50 +0000
+I, [2014-02-08T18:39:50.647697 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:39:50.647905 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM12a6c51cf62f6b5429ba6c4e92df4d4f", "Body"=>"Thirsty, Acadia, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM12a6c51cf62f6b5429ba6c4e92df4d4f", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM12a6c51cf62f6b5429ba6c4e92df4d4f", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T18:39:52.120419 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:39:52.120964 #7260]  INFO -- : Completed 200 OK in 1473ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:40:11.958622 #7257]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 18:40:11 +0000
+I, [2014-02-08T18:40:11.978672 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:40:11.978981 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM95e74902b10c3f25b5c287b57d996157", "Body"=>"Thirsty, Arcadia, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM95e74902b10c3f25b5c287b57d996157", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM95e74902b10c3f25b5c287b57d996157", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T18:40:13.987514 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.3ms)
+I, [2014-02-08T18:40:13.988051 #7257]  INFO -- : Completed 200 OK in 2009ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:47:17.175929 #7260]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-08 18:47:17 +0000
+I, [2014-02-08T18:47:17.178718 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:47:17.178888 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM0dc0258ea981138a54158f0cb267ca9e", "Body"=>"Thirsty, Downey, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM0dc0258ea981138a54158f0cb267ca9e", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM0dc0258ea981138a54158f0cb267ca9e", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T18:47:19.155226 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:47:19.155756 #7260]  INFO -- : Completed 200 OK in 1977ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:47:26.481664 #7257]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 18:47:26 +0000
+I, [2014-02-08T18:47:26.484242 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:47:26.484419 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9cc816c6cd5460946e1c9ef12332c834", "Body"=>"Thirsty, Downey, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM9cc816c6cd5460946e1c9ef12332c834", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9cc816c6cd5460946e1c9ef12332c834", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T18:47:28.490056 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:47:28.490578 #7257]  INFO -- : Completed 200 OK in 2006ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:47:34.477743 #7260]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 18:47:34 +0000
+I, [2014-02-08T18:47:34.480105 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:47:34.480327 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMe2b32e77f5c28e34e9557021ff2bb8a0", "Body"=>"Thirsty, Downey, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMe2b32e77f5c28e34e9557021ff2bb8a0", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMe2b32e77f5c28e34e9557021ff2bb8a0", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T18:47:36.276425 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:47:36.277382 #7260]  INFO -- : Completed 200 OK in 1797ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:47:43.163003 #7257]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 18:47:43 +0000
+I, [2014-02-08T18:47:43.166098 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:47:43.166346 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM50c82c5340343593d6b24f724c50f1dd", "Body"=>"Thirsty, Downey, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM50c82c5340343593d6b24f724c50f1dd", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM50c82c5340343593d6b24f724c50f1dd", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T18:47:44.941989 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:47:44.942553 #7257]  INFO -- : Completed 200 OK in 1776ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:48:02.515635 #7260]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-08 18:48:02 +0000
+I, [2014-02-08T18:48:02.518217 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:48:02.518394 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMeea9bdfea1eb6533e1ddf0c9cd8dad6e", "Body"=>"Thirsty, Downey, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMeea9bdfea1eb6533e1ddf0c9cd8dad6e", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMeea9bdfea1eb6533e1ddf0c9cd8dad6e", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T18:48:04.464496 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:48:04.465045 #7260]  INFO -- : Completed 200 OK in 1946ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:48:09.609420 #7257]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 18:48:09 +0000
+I, [2014-02-08T18:48:09.612035 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:48:09.612260 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM46fec5a99383513ceeaf29b6066db06e", "Body"=>"Thirsty, Downey, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM46fec5a99383513ceeaf29b6066db06e", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM46fec5a99383513ceeaf29b6066db06e", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T18:48:11.510687 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:48:11.511205 #7257]  INFO -- : Completed 200 OK in 1899ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:48:16.808266 #7260]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 18:48:16 +0000
+I, [2014-02-08T18:48:16.811770 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:48:16.811942 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMab3b7c0911f6138e330dc14f7a19a2e2", "Body"=>"Thirsty, Downey, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMab3b7c0911f6138e330dc14f7a19a2e2", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMab3b7c0911f6138e330dc14f7a19a2e2", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-08T18:48:18.747623 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:48:18.748155 #7260]  INFO -- : Completed 200 OK in 1936ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:02.191643 #7257]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 18:52:02 +0000
+I, [2014-02-08T18:52:02.194658 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:02.194870 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM481e2cf0d2c00b4079043d17919001d8", "Body"=>"hungry", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"FL", "ToState"=>"CA", "SmsSid"=>"SM481e2cf0d2c00b4079043d17919001d8", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM481e2cf0d2c00b4079043d17919001d8", "ApiVersion"=>"2010-04-01", "FromCity"=>"PERRINE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13052812046", "FromZip"=>"33186"}
+I, [2014-02-08T18:52:03.570294 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.3ms)
+I, [2014-02-08T18:52:03.570965 #7257]  INFO -- : Completed 200 OK in 1376ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:09.417868 #7260]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-08 18:52:09 +0000
+I, [2014-02-08T18:52:09.420710 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:09.420887 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMa873b4451f32c887c6e4fc320fcfc563", "Body"=>"hungry, Brooklyn, NY", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"NY", "ToState"=>"CA", "SmsSid"=>"SMa873b4451f32c887c6e4fc320fcfc563", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMa873b4451f32c887c6e4fc320fcfc563", "ApiVersion"=>"2010-04-01", "FromCity"=>"BROOKLYN", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17187533087", "FromZip"=>"11377"}
+I, [2014-02-08T18:52:10.196046 #7257]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-08 18:52:10 +0000
+I, [2014-02-08T18:52:10.198817 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:10.199062 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM621ae288f6705814119bab43d60a8752", "Body"=>"hungry, New York, NY", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM621ae288f6705814119bab43d60a8752", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM621ae288f6705814119bab43d60a8752", "ApiVersion"=>"2010-04-01", "FromCity"=>"LOS ANGELES", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+14242424220", "FromZip"=>"90017"}
+I, [2014-02-08T18:52:11.457304 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:52:11.457792 #7260]  INFO -- : Completed 200 OK in 2037ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:12.274817 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:52:12.275404 #7257]  INFO -- : Completed 200 OK in 2076ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:12.978338 #7260]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 18:52:12 +0000
+I, [2014-02-08T18:52:12.980657 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:12.980817 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMba8a5ef9af66dd0f5b8191300c979161", "Body"=>"Thirsty, new York, new York", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"WA", "ToState"=>"CA", "SmsSid"=>"SMba8a5ef9af66dd0f5b8191300c979161", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMba8a5ef9af66dd0f5b8191300c979161", "ApiVersion"=>"2010-04-01", "FromCity"=>"KIRKLAND", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+12068521211", "FromZip"=>"98144"}
+I, [2014-02-08T18:52:13.651401 #7257]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-08 18:52:13 +0000
+I, [2014-02-08T18:52:13.653862 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:13.657521 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6d8f0ce222878e287dc5e2a4d0a93405", "Body"=>"Hungry, new york, new york", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"UT", "ToState"=>"CA", "SmsSid"=>"SM6d8f0ce222878e287dc5e2a4d0a93405", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6d8f0ce222878e287dc5e2a4d0a93405", "ApiVersion"=>"2010-04-01", "FromCity"=>"EPHRAIM", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+14353401865", "FromZip"=>"84627"}
+I, [2014-02-08T18:52:15.051836 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:52:15.052352 #7260]  INFO -- : Completed 200 OK in 2071ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:15.762926 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-08T18:52:15.763416 #7257]  INFO -- : Completed 200 OK in 2106ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:17.340790 #7260]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 18:52:17 +0000
+I, [2014-02-08T18:52:17.343308 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:17.343494 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM960d4d1f8280abd82534e70ee56a2ef6", "Body"=>"Thirsty, New York, by", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"MA", "ToState"=>"CA", "SmsSid"=>"SM960d4d1f8280abd82534e70ee56a2ef6", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM960d4d1f8280abd82534e70ee56a2ef6", "ApiVersion"=>"2010-04-01", "FromCity"=>"GLOUCESTER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19783251526", "FromZip"=>"01930"}
+I, [2014-02-08T18:52:18.790156 #7257]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-08 18:52:18 +0000
+I, [2014-02-08T18:52:18.792498 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:18.792676 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM5b420b2924a7fb42bf50d6448652f4f9", "Body"=>"Thirsty, New York, NY", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"NJ", "ToState"=>"CA", "SmsSid"=>"SM5b420b2924a7fb42bf50d6448652f4f9", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM5b420b2924a7fb42bf50d6448652f4f9", "ApiVersion"=>"2010-04-01", "FromCity"=>"CLIFFSIDE PARK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+12016588669", "FromZip"=>"07022"}
+I, [2014-02-08T18:52:19.454131 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:52:19.454660 #7260]  INFO -- : Completed 200 OK in 2111ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:20.927573 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:52:20.928116 #7257]  INFO -- : Completed 200 OK in 2135ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:21.412945 #7260]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 18:52:21 +0000
+I, [2014-02-08T18:52:21.415557 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:21.415782 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMb06a9ca016a53088ebf17cb61116ce19", "Body"=>"Hungry, NEW YORK CITY, NY", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"FL", "ToState"=>"CA", "SmsSid"=>"SMb06a9ca016a53088ebf17cb61116ce19", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMb06a9ca016a53088ebf17cb61116ce19", "ApiVersion"=>"2010-04-01", "FromCity"=>"PERRINE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13052812046", "FromZip"=>"33186"}
+I, [2014-02-08T18:52:23.513074 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:52:23.513611 #7260]  INFO -- : Completed 200 OK in 2098ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:29.063528 #7257]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 18:52:29 +0000
+I, [2014-02-08T18:52:29.065764 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:29.065974 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9e843fabf9a10caea7cd0eeeee094219", "Body"=>"hungry, New York, NY", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"NY", "ToState"=>"CA", "SmsSid"=>"SM9e843fabf9a10caea7cd0eeeee094219", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9e843fabf9a10caea7cd0eeeee094219", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16466236364", "FromZip"=>"10010"}
+I, [2014-02-08T18:52:30.724735 #7260]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-08 18:52:30 +0000
+I, [2014-02-08T18:52:30.728398 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:30.728591 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6f68c4b03f95783b26d9c9448d0441a8", "Body"=>"Thirsty, New York, ny", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM6f68c4b03f95783b26d9c9448d0441a8", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6f68c4b03f95783b26d9c9448d0441a8", "ApiVersion"=>"2010-04-01", "FromCity"=>"LONG BEACH", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17149075336", "FromZip"=>"90807"}
+I, [2014-02-08T18:52:31.495399 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:52:31.495874 #7257]  INFO -- : Completed 200 OK in 2430ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:32.562270 #7257]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 18:52:32 +0000
+I, [2014-02-08T18:52:32.564679 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:52:32.564865 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6e47c231e301d8978de2d8fcbde71701", "Body"=>"hungry,New York,NY", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SM6e47c231e301d8978de2d8fcbde71701", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6e47c231e301d8978de2d8fcbde71701", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13472811950", "FromZip"=>"10013"}
+I, [2014-02-08T18:52:32.804024 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:52:32.804516 #7260]  INFO -- : Completed 200 OK in 2076ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:52:34.352112 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T18:52:34.352775 #7257]  INFO -- : Completed 200 OK in 1788ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T18:53:01.473362 #7260]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-08 18:53:01 +0000
+I, [2014-02-08T18:53:01.476289 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T18:53:01.476534 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9bf48f12a6d760f8bb0f7b76ec8065c5", "Body"=>"Hungry, New York, New York", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM9bf48f12a6d760f8bb0f7b76ec8065c5", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9bf48f12a6d760f8bb0f7b76ec8065c5", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T18:53:03.601776 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.5ms)
+I, [2014-02-08T18:53:03.602293 #7260]  INFO -- : Completed 200 OK in 2126ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T20:10:18.518892 #7257]  INFO -- : Started GET "/phppath/php%20*/*" for 123.103.98.92 at 2014-02-08 20:10:18 +0000
+F, [2014-02-08T20:10:18.522150 #7257] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/phppath/php%20*/*"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-08T22:25:25.344571 #7260]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-08 22:25:25 +0000
+I, [2014-02-08T22:25:25.348264 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T22:25:25.348532 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMee98450c6a026c73f0f5eb9681a2fb38", "Body"=>"Hungry, New York, ny", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"Puerto Rico", "ToState"=>"CA", "SmsSid"=>"SMee98450c6a026c73f0f5eb9681a2fb38", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"PR", "SmsMessageSid"=>"SMee98450c6a026c73f0f5eb9681a2fb38", "ApiVersion"=>"2010-04-01", "FromCity"=>"GUAYNABO", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17876001313", "FromZip"=>"00968"}
+I, [2014-02-08T22:25:27.609661 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T22:25:27.610355 #7260]  INFO -- : Completed 200 OK in 2262ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T22:38:22.361079 #7257]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 22:38:22 +0000
+I, [2014-02-08T22:38:22.363379 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T22:38:22.363564 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMd1969d89af3ad88d5fad14a456569c5b", "Body"=>"Hungry New York, NY", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"NY", "ToState"=>"CA", "SmsSid"=>"SMd1969d89af3ad88d5fad14a456569c5b", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMd1969d89af3ad88d5fad14a456569c5b", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19173350876", "FromZip"=>"10010"}
+I, [2014-02-08T22:38:22.381527 #7257]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-02-08T22:38:22.384345 #7257] FATAL -- : 
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/home_controller.rb:18:in `sms_reply'
+
+
+I, [2014-02-08T22:47:19.713867 #7260]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-08 22:47:19 +0000
+I, [2014-02-08T22:47:19.716265 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T22:47:19.716451 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM86c40569ea18c366af614562df84d753", "Body"=>"hungry, NEW YORK, NY", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"TX", "ToState"=>"CA", "SmsSid"=>"SM86c40569ea18c366af614562df84d753", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM86c40569ea18c366af614562df84d753", "ApiVersion"=>"2010-04-01", "FromCity"=>"DALLAS", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19728543159", "FromZip"=>"75051"}
+I, [2014-02-08T22:47:21.855394 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T22:47:21.856030 #7260]  INFO -- : Completed 200 OK in 2139ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T22:47:57.477179 #7257]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 22:47:57 +0000
+I, [2014-02-08T22:47:57.479245 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T22:47:57.479411 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM1dbb16c896779a0b91ec299232a6045f", "Body"=>"thirsty, NEW YORK, NY", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"TX", "ToState"=>"CA", "SmsSid"=>"SM1dbb16c896779a0b91ec299232a6045f", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM1dbb16c896779a0b91ec299232a6045f", "ApiVersion"=>"2010-04-01", "FromCity"=>"DALLAS", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19728543159", "FromZip"=>"75051"}
+I, [2014-02-08T22:47:59.588642 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T22:47:59.589127 #7257]  INFO -- : Completed 200 OK in 2110ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T22:52:59.505312 #7260]  INFO -- : Started HEAD "/" for 58.215.56.110 at 2014-02-08 22:52:59 +0000
+I, [2014-02-08T22:52:59.516905 #7260]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-08T22:52:59.524581 #7260]  INFO -- :   Rendered home/index.html.erb within layouts/application (1.2ms)
+I, [2014-02-08T22:52:59.527911 #7260]  INFO -- : Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T22:55:20.068223 #7257]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-08 22:55:20 +0000
+I, [2014-02-08T22:55:20.070809 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T22:55:20.071006 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM1f999e99cfc23fde6632019f1b88bc0b", "Body"=>"Hungry, San Francisco, CA", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"FL", "ToState"=>"CA", "SmsSid"=>"SM1f999e99cfc23fde6632019f1b88bc0b", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM1f999e99cfc23fde6632019f1b88bc0b", "ApiVersion"=>"2010-04-01", "FromCity"=>"TALLAHASSEE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18503398760", "FromZip"=>"32305"}
+I, [2014-02-08T22:55:22.211063 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.3ms)
+I, [2014-02-08T22:55:22.211640 #7257]  INFO -- : Completed 200 OK in 2140ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T22:55:34.668494 #7260]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-08 22:55:34 +0000
+I, [2014-02-08T22:55:34.671064 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T22:55:34.671237 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM4c5e759b6fe8bf02aed86724f1f08530", "Body"=>"Hungry, sf, ca", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"FL", "ToState"=>"CA", "SmsSid"=>"SM4c5e759b6fe8bf02aed86724f1f08530", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM4c5e759b6fe8bf02aed86724f1f08530", "ApiVersion"=>"2010-04-01", "FromCity"=>"TALLAHASSEE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18503398760", "FromZip"=>"32305"}
+I, [2014-02-08T22:55:36.765327 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T22:55:36.765848 #7260]  INFO -- : Completed 200 OK in 2094ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-08T23:24:00.364232 #7257]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-08 23:24:00 +0000
+I, [2014-02-08T23:24:00.371678 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-08T23:24:00.371897 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM60527995d4cc284021d3a42eb180c1df", "Body"=>"Hungry, sf, Ca", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM60527995d4cc284021d3a42eb180c1df", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM60527995d4cc284021d3a42eb180c1df", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-08T23:24:02.421865 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-08T23:24:02.422397 #7257]  INFO -- : Completed 200 OK in 2050ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T00:37:25.395618 #7260]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-09 00:37:25 +0000
+I, [2014-02-09T00:37:25.397848 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T00:37:25.398125 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM7aa84754a675c9a7009d01af6f76dfb2", "Body"=>"Thirsty, New York, NY", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM7aa84754a675c9a7009d01af6f76dfb2", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM7aa84754a675c9a7009d01af6f76dfb2", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-09T00:37:27.501082 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-09T00:37:27.501595 #7260]  INFO -- : Completed 200 OK in 2103ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T02:45:24.158913 #7260]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-09 02:45:24 +0000
+I, [2014-02-09T02:45:24.167437 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T02:45:24.167694 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMc28a6adbe532b28b744f901f05a9cba0", "Body"=>"Hungry, Oaxaca, mx", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMc28a6adbe532b28b744f901f05a9cba0", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMc28a6adbe532b28b744f901f05a9cba0", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-09T02:45:26.328436 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-09T02:45:26.328903 #7260]  INFO -- : Completed 200 OK in 2161ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T03:07:53.972163 #7257]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-09 03:07:53 +0000
+I, [2014-02-09T03:07:53.975633 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T03:07:53.975973 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMdd9679d709ec21a83a74843aba6c07d6", "Body"=>"Hungry, Oaxaca, mx", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMdd9679d709ec21a83a74843aba6c07d6", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMdd9679d709ec21a83a74843aba6c07d6", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-09T03:07:55.982243 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.3ms)
+I, [2014-02-09T03:07:55.982841 #7257]  INFO -- : Completed 200 OK in 2006ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T03:15:12.042686 #7260]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-09 03:15:12 +0000
+I, [2014-02-09T03:15:12.045016 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T03:15:12.045198 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMab8514d4ecfd190603fa9577aa1a8a80", "Body"=>"hungry, Oaxaca Mx", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SMab8514d4ecfd190603fa9577aa1a8a80", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMab8514d4ecfd190603fa9577aa1a8a80", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602142872", "FromZip"=>"92084"}
+I, [2014-02-09T03:15:12.046707 #7260]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-02-09T03:15:12.049077 #7260] FATAL -- : 
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/home_controller.rb:18:in `sms_reply'
+
+
+I, [2014-02-09T03:17:17.441561 #7257]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-09 03:17:17 +0000
+I, [2014-02-09T03:17:17.443890 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T03:17:17.444039 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM286ddbd010515f0648f100ef1752fe23", "Body"=>"\"hungry, Oaxaca.MX\"", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM286ddbd010515f0648f100ef1752fe23", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM286ddbd010515f0648f100ef1752fe23", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602142872", "FromZip"=>"92084"}
+I, [2014-02-09T03:17:17.445059 #7257]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-02-09T03:17:17.447679 #7257] FATAL -- : 
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/home_controller.rb:18:in `sms_reply'
+
+
+I, [2014-02-09T03:31:03.878793 #7260]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-09 03:31:03 +0000
+I, [2014-02-09T03:31:03.880734 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T03:31:03.880892 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM858dfc24f520e27220ef66c1bcafee16", "Body"=>"Hungry, New York, NY", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"FL", "ToState"=>"CA", "SmsSid"=>"SM858dfc24f520e27220ef66c1bcafee16", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM858dfc24f520e27220ef66c1bcafee16", "ApiVersion"=>"2010-04-01", "FromCity"=>"ORLANDO", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+14077658924", "FromZip"=>"34746"}
+I, [2014-02-09T03:31:06.324853 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-09T03:31:06.325459 #7260]  INFO -- : Completed 200 OK in 2444ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T03:53:45.653851 #7257]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-09 03:53:45 +0000
+I, [2014-02-09T03:53:45.656059 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T03:53:45.656227 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM560969d4806f9552af103a9a2626c708", "Body"=>"Hungry", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM560969d4806f9552af103a9a2626c708", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM560969d4806f9552af103a9a2626c708", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602243973", "FromZip"=>"92084"}
+I, [2014-02-09T03:53:48.288617 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-09T03:53:48.289265 #7257]  INFO -- : Completed 200 OK in 2633ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T03:54:42.302952 #7260]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-09 03:54:42 +0000
+I, [2014-02-09T03:54:42.305428 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T03:54:42.305633 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM87454e4f287c5822a2ba4c037944a336", "Body"=>"Hungry, San Marcos, CA", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM87454e4f287c5822a2ba4c037944a336", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM87454e4f287c5822a2ba4c037944a336", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602243973", "FromZip"=>"92084"}
+I, [2014-02-09T03:54:44.614052 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-09T03:54:44.614625 #7260]  INFO -- : Completed 200 OK in 2309ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T03:56:12.051173 #7257]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-09 03:56:12 +0000
+I, [2014-02-09T03:56:12.054036 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T03:56:12.054281 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM0f64436028c90747a5a3688da599c021", "Body"=>"Thirsty,San Marcos, CA", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM0f64436028c90747a5a3688da599c021", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM0f64436028c90747a5a3688da599c021", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602243973", "FromZip"=>"92084"}
+I, [2014-02-09T03:56:14.273238 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-09T03:56:14.273736 #7257]  INFO -- : Completed 200 OK in 2219ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T04:00:13.426190 #7260]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-09 04:00:13 +0000
+I, [2014-02-09T04:00:13.428500 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T04:00:13.428666 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMf03ec47d94929feccee51776eb884639", "Body"=>"Hungry, san marcos, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMf03ec47d94929feccee51776eb884639", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMf03ec47d94929feccee51776eb884639", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602243973", "FromZip"=>"92084"}
+I, [2014-02-09T04:00:15.756822 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-09T04:00:15.757306 #7260]  INFO -- : Completed 200 OK in 2328ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T04:00:46.474712 #7257]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-09 04:00:46 +0000
+I, [2014-02-09T04:00:46.477187 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T04:00:46.477366 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM5375345f4007857eef7487ed0f3ef535", "Body"=>"Thirsty, da marcos, CA", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM5375345f4007857eef7487ed0f3ef535", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM5375345f4007857eef7487ed0f3ef535", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602243973", "FromZip"=>"92084"}
+I, [2014-02-09T04:00:48.614799 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-09T04:00:48.615441 #7257]  INFO -- : Completed 200 OK in 2138ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T04:01:50.666067 #7260]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-09 04:01:50 +0000
+I, [2014-02-09T04:01:50.668502 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T04:01:50.668681 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM7b9daf24756c1bd367f52c267e863325", "Body"=>"Thirsty, San Marcos , CA", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM7b9daf24756c1bd367f52c267e863325", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM7b9daf24756c1bd367f52c267e863325", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602243973", "FromZip"=>"92084"}
+I, [2014-02-09T04:01:52.963246 #7260]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-09T04:01:52.963828 #7260]  INFO -- : Completed 200 OK in 2295ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T04:02:21.496971 #7257]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-09 04:02:21 +0000
+I, [2014-02-09T04:02:21.499436 #7257]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T04:02:21.499634 #7257]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMc02c0c1412dc7f67254db49c62d3ffd0", "Body"=>"Hungry, San Marcos, CA", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SMc02c0c1412dc7f67254db49c62d3ffd0", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMc02c0c1412dc7f67254db49c62d3ffd0", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602243973", "FromZip"=>"92084"}
+I, [2014-02-09T04:02:24.477984 #7257]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-09T04:02:24.478707 #7257]  INFO -- : Completed 200 OK in 2979ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-09T04:03:27.375758 #7260]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-09 04:03:27 +0000
+I, [2014-02-09T04:03:27.378677 #7260]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-09T04:03:27.378851 #7260]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM45fe5cad9b9d5ca5f366d04c90a2b149", "Body"=>"Ta muy bueno, tu lo hiciste?", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM45fe5cad9b9d5ca5f366d04c90a2b149", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM45fe5cad9b9d5ca5f366d04c90a2b149", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17602243973", "FromZip"=>"92084"}
+I, [2014-02-09T04:03:27.380007 #7260]  INFO -- : Completed 500 Internal Server Error in 1ms
+F, [2014-02-09T04:03:27.382681 #7260] FATAL -- : 
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/home_controller.rb:18:in `sms_reply'
+
+
