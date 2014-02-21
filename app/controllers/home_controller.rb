@@ -7,25 +7,32 @@ class HomeController < ApplicationController
 
   def sms_reply
 
-    access_token = 'AIzaSyDt7rFMhlgsyWvtQUjLDI4Im5d72Jdq_4s'
+    access_token = 'AIzaSyDt7rFMhlgsyWvtQUjLDI4Im5d72Jdq_4s' # GoogleAPI
     radius = 500;
 
-    #if params['Body'].nil?
-    #  action = 'knil'
-    if params['Body'].split(",").size > 1
-      action, city, state = params['Body'].split(",").map(&:strip)
-      city = city.gsub(' ', '+') #unless defined? city
-      state = state.gsub(' ', '+') #unless defined? city
-    else
-     action = 'h'
-    end
+    if params['Body'].split(",").size == 2 
+#&& params['Body'].split(",")[1].size == 5
+      action, zipcode = params['Body'].split(",").map(&:strip)
 
-    if action.downcase == 'hungry'
-      query = 'restaurants+in+'+city+'+'+state
-    elsif action.downcase == 'thirsty'
-      query = 'bars+in+'+city+'+'+state
-    else 
-      @suggestion = 'You gotta do it like dis: "hungry, CITY, STATE" or "thirsty, CITY, STATE"'
+      query = 'restaurants+in+' + zipcode if action.downcase == 'hungry'
+      query = 'bars+in+' + zipcode if action.downcase == 'thirsty'
+        @suggestion = 'You gotta do it like dis: "hungry, CITY, STATE" or "thirsty, CITY, STATE"' if action.downcase != 'thirsty' && action.downcase != 'hungry'
+    else
+      if params['Body'].split(",").size == 3
+        action, city, state = params['Body'].split(",").map(&:strip)
+        city = city.gsub(' ', '+') #if city.nil?
+        state = state.gsub(' ', '+') #if city.nil?
+      else
+       action = 'h'
+      end
+
+      if action.downcase == 'hungry'
+        query = 'restaurants+in+'+city.to_s+'+'+state.to_s
+      elsif action.downcase == 'thirsty'
+        query = 'bars+in+'+city.to_s+'+'+state.to_s
+      else 
+        @suggestion = 'You gotta do it like dis: "hungry, CITY, STATE" or "thirsty, CITY, STATE"'
+      end
     end
     
     fullURL = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=%s&radius=%d&key=%s&sensor=false' % [query, radius, access_token]
@@ -47,13 +54,6 @@ class HomeController < ApplicationController
         i = rand(names.size) - 1
         @suggestion = names[i] + ' | ' + address[i]  
       end
-    #client = Twilio::REST::Client.new(TWILIO_CONFIG['sid'], TWILIO_CONFIG['token'])
-
-    #client.account.sms.messages.create(
-    #  from: TWILIO_CONFIG['from'],
-    #  to: params['From'],
-    #  body: @suggestion
-    #)
 
     render 'sms_reply.xml.erb', :content_type => 'text/xml'
   end
