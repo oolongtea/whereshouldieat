@@ -16,6 +16,7 @@ config/initializers/secret_token.rb
 config/secrets.yml
 config/database.yml
 config/database.travis.yml
+config/twilio.yml
 
 ## Environment normalisation:
 /.bundle

@@ -7,7 +7,7 @@ class HomeController < ApplicationController
 
   def sms_reply
 
-    access_token = 'AIzaSyDt7rFMhlgsyWvtQUjLDI4Im5d72Jdq_4s' # GoogleAPI
+    access_token = TWILIO_CONFIG[:google_token]
     radius = 500;
 
     if params['Body'].split(",").size == 2 
