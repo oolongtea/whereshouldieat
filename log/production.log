@@ -13743,3 +13743,1398 @@ ActionController::RoutingError (No route matches [GET] "/cgi-bin/rtpd.cgi"):
   /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
 
 
+I, [2014-02-21T04:27:26.683612 #10041]  INFO -- : Started GET "/" for 71.6.165.200 at 2014-02-21 04:27:26 +0000
+I, [2014-02-21T04:27:26.685046 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-21T04:27:26.686391 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-21T04:27:26.687754 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+I, [2014-02-21T10:19:26.939655 #10043]  INFO -- : Started HEAD "/" for 54.205.225.83 at 2014-02-21 10:19:26 +0000
+I, [2014-02-21T10:19:26.941442 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-21T10:19:26.942879 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-21T10:19:26.944150 #10043]  INFO -- : Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-21T14:04:10.813942 #10041]  INFO -- : Started GET "/cgi-bin/rtpd.cgi?/bin/busybox" for 58.50.151.23 at 2014-02-21 14:04:10 +0000
+F, [2014-02-21T14:04:10.819616 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/cgi-bin/rtpd.cgi"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-22T01:18:27.068124 #10043]  INFO -- : Started HEAD "/" for 80.179.24.50 at 2014-02-22 01:18:27 +0000
+I, [2014-02-22T01:18:27.069497 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-22T01:18:27.070606 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-02-22T01:18:27.071649 #10043]  INFO -- : Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T11:11:58.402337 #10041]  INFO -- : Started HEAD "/" for 92.53.51.37 at 2014-02-22 11:11:58 +0000
+I, [2014-02-22T11:11:58.403824 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-22T11:11:58.405012 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-02-22T11:11:58.406396 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T11:51:00.959701 #10043]  INFO -- : Started GET "/wp-admin/install.php" for 146.185.156.136 at 2014-02-22 11:51:00 +0000
+F, [2014-02-22T11:51:00.964846 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/wp-admin/install.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-22T16:10:02.608400 #10041]  INFO -- : Started HEAD "/" for 46.182.19.10 at 2014-02-22 16:10:02 +0000
+I, [2014-02-22T16:10:02.610190 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-22T16:10:02.611555 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-22T16:10:02.612930 #10041]  INFO -- : Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T17:47:08.118474 #10043]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-22 17:47:08 +0000
+I, [2014-02-22T17:47:08.120407 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T17:47:08.120591 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM8e2328e92751d90ef822cdb62b25ee76", "Body"=>"Hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM8e2328e92751d90ef822cdb62b25ee76", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM8e2328e92751d90ef822cdb62b25ee76", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-22T17:47:10.181163 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T17:47:10.181741 #10043]  INFO -- : Completed 200 OK in 2061ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T17:47:28.711086 #10041]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-22 17:47:28 +0000
+I, [2014-02-22T17:47:28.712764 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T17:47:28.712911 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM77200d7131d2b7f339b515e95e93eb3a", "Body"=>"Hungry, 92613", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM77200d7131d2b7f339b515e95e93eb3a", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM77200d7131d2b7f339b515e95e93eb3a", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-22T17:47:30.149161 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T17:47:30.149664 #10041]  INFO -- : Completed 200 OK in 1437ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T17:50:54.566619 #10043]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-22 17:50:54 +0000
+I, [2014-02-22T17:50:54.568862 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T17:50:54.569021 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM7ee1213b976a538d9c6aef8d84a929bc", "Body"=>"Hungry, 92612", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM7ee1213b976a538d9c6aef8d84a929bc", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM7ee1213b976a538d9c6aef8d84a929bc", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-22T17:50:56.539782 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T17:50:56.540423 #10043]  INFO -- : Completed 200 OK in 1971ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T22:24:54.163599 #10043]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-22 22:24:54 +0000
+I, [2014-02-22T22:24:54.166078 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T22:24:54.166268 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMde1fa5cadaeabe9f084ea2dd590e373c", "Body"=>"Hungry, 92612", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMde1fa5cadaeabe9f084ea2dd590e373c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMde1fa5cadaeabe9f084ea2dd590e373c", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-22T22:24:56.107724 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T22:24:56.108209 #10043]  INFO -- : Completed 200 OK in 1942ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T22:25:31.484094 #10041]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-22 22:25:31 +0000
+I, [2014-02-22T22:25:31.487857 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T22:25:31.488063 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM967a9ddb07f395cdf60d1964fe310384", "Body"=>"Hungry, 92612", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM967a9ddb07f395cdf60d1964fe310384", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM967a9ddb07f395cdf60d1964fe310384", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-22T22:25:33.452432 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T22:25:33.452879 #10041]  INFO -- : Completed 200 OK in 1965ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T22:25:56.700842 #10043]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-22 22:25:56 +0000
+I, [2014-02-22T22:25:56.703133 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T22:25:56.703291 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM621f695fd405037b04abf36f82cb9dba", "Body"=>"Thirsty, 10025", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM621f695fd405037b04abf36f82cb9dba", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM621f695fd405037b04abf36f82cb9dba", "ApiVersion"=>"2010-04-01", "FromCity"=>"DOWNEY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15626448488", "FromZip"=>"90242"}
+I, [2014-02-22T22:25:58.790077 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-22T22:25:58.790528 #10043]  INFO -- : Completed 200 OK in 2087ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T22:28:35.144136 #10041]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-22 22:28:35 +0000
+I, [2014-02-22T22:28:35.146379 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T22:28:35.146528 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM56b2c95579420c28e9c133b0c3943432", "Body"=>"Hungry, 92612", "ToZip"=>"94114", "ToCity"=>"OAKLAND", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SM56b2c95579420c28e9c133b0c3943432", "To"=>"+14153357874", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM56b2c95579420c28e9c133b0c3943432", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-22T22:28:37.087116 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T22:28:37.087602 #10041]  INFO -- : Completed 200 OK in 1941ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T22:28:47.052221 #10043]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-22 22:28:47 +0000
+I, [2014-02-22T22:28:47.054845 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T22:28:47.055096 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMed240d37ef3ebd36adbb38ddb0527c4e", "Body"=>"Hungry, 92612", "ToZip"=>"92122", "ToCity"=>"SAN DIEGO", "FromState"=>"CA", "ToState"=>"CA", "SmsSid"=>"SMed240d37ef3ebd36adbb38ddb0527c4e", "To"=>"+18583467844", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMed240d37ef3ebd36adbb38ddb0527c4e", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-22T22:28:48.974465 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-22T22:28:48.974914 #10043]  INFO -- : Completed 200 OK in 1920ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:18:44.363661 #10041]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-22 23:18:44 +0000
+I, [2014-02-22T23:18:44.366260 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:18:44.366474 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM30d0eb75d1f6af36ac908c91bb0d3786", "Body"=>"Hungry, 20854", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM30d0eb75d1f6af36ac908c91bb0d3786", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM30d0eb75d1f6af36ac908c91bb0d3786", "ApiVersion"=>"2010-04-01", "FromCity"=>"SILVER SPRING", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13017875211", "FromZip"=>"20902"}
+I, [2014-02-22T23:18:46.419051 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:18:46.419539 #10041]  INFO -- : Completed 200 OK in 2053ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:19:48.079266 #10043]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-22 23:19:48 +0000
+I, [2014-02-22T23:19:48.081597 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:19:48.081778 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMce880f53b1cbec0850cdd63b50326c64", "Body"=>"Hungry, 92069", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMce880f53b1cbec0850cdd63b50326c64", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMce880f53b1cbec0850cdd63b50326c64", "ApiVersion"=>"2010-04-01", "FromCity"=>"VISTA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17605008735", "FromZip"=>"92008"}
+I, [2014-02-22T23:19:50.105498 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:19:50.106072 #10043]  INFO -- : Completed 200 OK in 2024ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:45:46.315861 #10041]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-22 23:45:46 +0000
+I, [2014-02-22T23:45:46.318170 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:45:46.318320 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM2c3c10bb8d1086102bf76d850af58701", "Body"=>"Hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"IL", "ToState"=>"IN", "SmsSid"=>"SM2c3c10bb8d1086102bf76d850af58701", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM2c3c10bb8d1086102bf76d850af58701", "ApiVersion"=>"2010-04-01", "FromCity"=>"DEKALB", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18159014888", "FromZip"=>"60115"}
+I, [2014-02-22T23:45:48.399385 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-22T23:45:48.399895 #10041]  INFO -- : Completed 200 OK in 2081ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:46:31.655753 #10043]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-22 23:46:31 +0000
+I, [2014-02-22T23:46:31.658351 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:46:31.658513 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM491eb5d7abac059107d316638d66a839", "Body"=>"Hungry, rochester, ny", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SM491eb5d7abac059107d316638d66a839", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM491eb5d7abac059107d316638d66a839", "ApiVersion"=>"2010-04-01", "FromCity"=>"ROCHESTER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15858511897", "FromZip"=>"14608"}
+I, [2014-02-22T23:46:33.610406 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:46:33.610954 #10043]  INFO -- : Completed 200 OK in 1952ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:48:32.210957 #10041]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-22 23:48:32 +0000
+I, [2014-02-22T23:48:32.213672 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:48:32.213877 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM5d3e23b2eb4cb92ae019870b7cacb2d0", "Body"=>"Hungry,10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SM5d3e23b2eb4cb92ae019870b7cacb2d0", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM5d3e23b2eb4cb92ae019870b7cacb2d0", "ApiVersion"=>"2010-04-01", "FromCity"=>"SOUTH RICHMOND HILL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19178337518", "FromZip"=>"10019"}
+I, [2014-02-22T23:48:34.262574 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:48:34.263111 #10041]  INFO -- : Completed 200 OK in 2049ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:48:57.280434 #10043]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-22 23:48:57 +0000
+I, [2014-02-22T23:48:57.283152 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:48:57.283327 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMbc574672b8ebbea31f5606142a736e60", "Body"=>"Hungry,95134", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SMbc574672b8ebbea31f5606142a736e60", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMbc574672b8ebbea31f5606142a736e60", "ApiVersion"=>"2010-04-01", "FromCity"=>"SOUTH RICHMOND HILL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19178337518", "FromZip"=>"10019"}
+I, [2014-02-22T23:48:59.290492 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:48:59.291129 #10043]  INFO -- : Completed 200 OK in 2008ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:49:19.336304 #10041]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-22 23:49:19 +0000
+I, [2014-02-22T23:49:19.338740 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:49:19.338917 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM3b50efa6332107a04734c98b84c3a48c", "Body"=>"Hungry,94040", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SM3b50efa6332107a04734c98b84c3a48c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM3b50efa6332107a04734c98b84c3a48c", "ApiVersion"=>"2010-04-01", "FromCity"=>"SOUTH RICHMOND HILL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19178337518", "FromZip"=>"10019"}
+I, [2014-02-22T23:49:21.341554 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:49:21.342075 #10041]  INFO -- : Completed 200 OK in 2003ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:51:12.878611 #10043]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-22 23:51:12 +0000
+I, [2014-02-22T23:51:12.881047 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:51:12.881239 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9f76418f0cea3585038c40f4cdfbdb23", "Body"=>"hungry, Kingston, Jamaica", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"IL", "ToState"=>"IN", "SmsSid"=>"SM9f76418f0cea3585038c40f4cdfbdb23", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9f76418f0cea3585038c40f4cdfbdb23", "ApiVersion"=>"2010-04-01", "FromCity"=>"CHAMPAIGN", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+12178980904", "FromZip"=>"61878"}
+I, [2014-02-22T23:51:14.944672 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:51:14.945144 #10043]  INFO -- : Completed 200 OK in 2064ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:52:19.130061 #10041]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-22 23:52:19 +0000
+I, [2014-02-22T23:52:19.132620 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:52:19.132824 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM7ca82fef9f1820730283fe5c734c6060", "Body"=>"hungry, Kingston, Jamaica", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"IL", "ToState"=>"IN", "SmsSid"=>"SM7ca82fef9f1820730283fe5c734c6060", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM7ca82fef9f1820730283fe5c734c6060", "ApiVersion"=>"2010-04-01", "FromCity"=>"CHAMPAIGN", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+12178980904", "FromZip"=>"61878"}
+I, [2014-02-22T23:52:21.064320 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:52:21.065198 #10041]  INFO -- : Completed 200 OK in 1932ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:53:25.107142 #10043]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-22 23:53:25 +0000
+I, [2014-02-22T23:53:25.109798 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:53:25.110062 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM8eea684731d20d01bd2852013c0aafc7", "Body"=>"Hungry,20854", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM8eea684731d20d01bd2852013c0aafc7", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM8eea684731d20d01bd2852013c0aafc7", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-22T23:53:27.137699 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:53:27.138226 #10043]  INFO -- : Completed 200 OK in 2028ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:53:48.532386 #10041]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-22 23:53:48 +0000
+I, [2014-02-22T23:53:48.534827 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:53:48.534989 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM7391b5dbc745a88fd685afbe0b198bf2", "Body"=>"Hungry,20854", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM7391b5dbc745a88fd685afbe0b198bf2", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM7391b5dbc745a88fd685afbe0b198bf2", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-22T23:53:50.532425 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:53:50.532961 #10041]  INFO -- : Completed 200 OK in 1998ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:54:31.870299 #10043]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-22 23:54:31 +0000
+I, [2014-02-22T23:54:31.872591 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:54:31.872749 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM4b8d49cc4adb47966bea8b84a5f60e31", "Body"=>"Hungry, Markham", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SM4b8d49cc4adb47966bea8b84a5f60e31", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM4b8d49cc4adb47966bea8b84a5f60e31", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19178222612", "FromZip"=>"10010"}
+I, [2014-02-22T23:54:33.773952 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:54:33.774433 #10043]  INFO -- : Completed 200 OK in 1901ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:54:34.452637 #10041]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-22 23:54:34 +0000
+I, [2014-02-22T23:54:34.454925 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:54:34.455065 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMe0ca87ff8d8a4efc9d07d112ff41fd4c", "Body"=>"Thirsty, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SMe0ca87ff8d8a4efc9d07d112ff41fd4c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMe0ca87ff8d8a4efc9d07d112ff41fd4c", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-22T23:54:36.523347 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:54:36.523892 #10041]  INFO -- : Completed 200 OK in 2069ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:56:49.101051 #10043]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-22 23:56:49 +0000
+I, [2014-02-22T23:56:49.103275 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:56:49.103477 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMec7773610087af89e7fc8330d1eca528", "Body"=>"hungry, 91755", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMec7773610087af89e7fc8330d1eca528", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMec7773610087af89e7fc8330d1eca528", "ApiVersion"=>"2010-04-01", "FromCity"=>"EL MONTE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16263780874", "FromZip"=>"91801"}
+I, [2014-02-22T23:56:51.079082 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-22T23:56:51.079523 #10043]  INFO -- : Completed 200 OK in 1976ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:56:52.326425 #10041]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-22 23:56:52 +0000
+I, [2014-02-22T23:56:52.328929 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:56:52.329107 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMc8d18b99b03eebe8f5518e895492c529", "Body"=>"Hungry, 5057", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"SD", "ToState"=>"IN", "SmsSid"=>"SMc8d18b99b03eebe8f5518e895492c529", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMc8d18b99b03eebe8f5518e895492c529", "ApiVersion"=>"2010-04-01", "FromCity"=>"BROOKINGS", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16056956114", "FromZip"=>"57026"}
+I, [2014-02-22T23:56:52.577725 #10043]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-22 23:56:52 +0000
+I, [2014-02-22T23:56:52.580132 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:56:52.580293 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMae4e1762039a8b4d2da69af641d8914f", "Body"=>"Hungry 10962", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SMae4e1762039a8b4d2da69af641d8914f", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMae4e1762039a8b4d2da69af641d8914f", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19179020388", "FromZip"=>"11361"}
+I, [2014-02-22T23:56:53.905202 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:56:53.905727 #10043]  INFO -- : Completed 200 OK in 1325ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:56:54.254860 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:56:54.255360 #10041]  INFO -- : Completed 200 OK in 1926ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:57:00.059533 #10043]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-22 23:57:00 +0000
+I, [2014-02-22T23:57:00.062344 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:57:00.062521 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM5301582b04724f434a05967c48c739dd", "Body"=>"Hungry, 60201", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"IL", "ToState"=>"IN", "SmsSid"=>"SM5301582b04724f434a05967c48c739dd", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM5301582b04724f434a05967c48c739dd", "ApiVersion"=>"2010-04-01", "FromCity"=>"PALATINE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18473721023", "FromZip"=>"60102"}
+I, [2014-02-22T23:57:02.135188 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-22T23:57:02.135646 #10043]  INFO -- : Completed 200 OK in 2073ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:57:14.297754 #10041]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-22 23:57:14 +0000
+I, [2014-02-22T23:57:14.300199 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:57:14.300373 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM96f1e361f950017113e03ee9fbe6ca7a", "Body"=>"Hungry, 57006", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"SD", "ToState"=>"IN", "SmsSid"=>"SM96f1e361f950017113e03ee9fbe6ca7a", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM96f1e361f950017113e03ee9fbe6ca7a", "ApiVersion"=>"2010-04-01", "FromCity"=>"BROOKINGS", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16056956114", "FromZip"=>"57026"}
+I, [2014-02-22T23:57:16.181877 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:57:16.182481 #10041]  INFO -- : Completed 200 OK in 1882ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:57:17.021932 #10043]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-22 23:57:17 +0000
+I, [2014-02-22T23:57:17.024363 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:57:17.024512 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMd5f7db21f804da4637f51a2c9be88473", "Body"=>"Hungry, 10962", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SMd5f7db21f804da4637f51a2c9be88473", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMd5f7db21f804da4637f51a2c9be88473", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19179020388", "FromZip"=>"11361"}
+I, [2014-02-22T23:57:18.699921 #10041]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-22 23:57:18 +0000
+I, [2014-02-22T23:57:18.702530 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:57:18.702690 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM4604cf1c14d45f2af9976f1b61da3803", "Body"=>"Hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM4604cf1c14d45f2af9976f1b61da3803", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM4604cf1c14d45f2af9976f1b61da3803", "ApiVersion"=>"2010-04-01", "FromCity"=>"SANTA CLARITA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16616005340", "FromZip"=>"91355"}
+I, [2014-02-22T23:57:19.002333 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:57:19.002803 #10043]  INFO -- : Completed 200 OK in 1978ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:57:19.005370 #10043]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-22 23:57:19 +0000
+I, [2014-02-22T23:57:19.007499 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:57:19.007641 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMf32e169982ebc87a962577c4d0776117", "Body"=>"Hungry, 95831", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SMf32e169982ebc87a962577c4d0776117", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMf32e169982ebc87a962577c4d0776117", "ApiVersion"=>"2010-04-01", "FromCity"=>"SACRAMENTO", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19168325026", "FromZip"=>"95822"}
+I, [2014-02-22T23:57:20.794867 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:57:20.795316 #10041]  INFO -- : Completed 200 OK in 2092ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:57:20.959030 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:57:20.959577 #10043]  INFO -- : Completed 200 OK in 1952ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:57:37.228076 #10041]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-22 23:57:37 +0000
+I, [2014-02-22T23:57:37.232871 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:57:37.233054 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM6d7ff4cdbf0b1deef19ca4545e5c3ea8", "Body"=>"Thirsty, 57006", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"SD", "ToState"=>"IN", "SmsSid"=>"SM6d7ff4cdbf0b1deef19ca4545e5c3ea8", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM6d7ff4cdbf0b1deef19ca4545e5c3ea8", "ApiVersion"=>"2010-04-01", "FromCity"=>"BROOKINGS", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16056956114", "FromZip"=>"57026"}
+I, [2014-02-22T23:57:39.426819 #10043]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-22 23:57:39 +0000
+I, [2014-02-22T23:57:39.429288 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:57:39.429501 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM874b6651ebb672b5d223b6d68847795c", "Body"=>"thirsty, 91755", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM874b6651ebb672b5d223b6d68847795c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM874b6651ebb672b5d223b6d68847795c", "ApiVersion"=>"2010-04-01", "FromCity"=>"EL MONTE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16263780874", "FromZip"=>"91801"}
+I, [2014-02-22T23:57:39.917049 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-22T23:57:39.917515 #10041]  INFO -- : Completed 200 OK in 2684ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:57:41.222307 #10041]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-22 23:57:41 +0000
+I, [2014-02-22T23:57:41.224822 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:57:41.225029 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9c8ba0d0e028b4c247c19097253a6c3d", "Body"=>"Thirsty, 60201", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"IL", "ToState"=>"IN", "SmsSid"=>"SM9c8ba0d0e028b4c247c19097253a6c3d", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9c8ba0d0e028b4c247c19097253a6c3d", "ApiVersion"=>"2010-04-01", "FromCity"=>"PALATINE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18473721023", "FromZip"=>"60102"}
+I, [2014-02-22T23:57:41.759346 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:57:41.759843 #10043]  INFO -- : Completed 200 OK in 2330ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:57:43.522372 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:57:43.522891 #10041]  INFO -- : Completed 200 OK in 2298ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:58:17.942996 #10043]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-22 23:58:17 +0000
+I, [2014-02-22T23:58:17.945329 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:58:17.945524 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9faf5acf783ca6b77afee29c319417e5", "Body"=>"Hungry, 91387", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CA", "ToState"=>"IN", "SmsSid"=>"SM9faf5acf783ca6b77afee29c319417e5", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9faf5acf783ca6b77afee29c319417e5", "ApiVersion"=>"2010-04-01", "FromCity"=>"SANTA CLARITA", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16616005340", "FromZip"=>"91355"}
+I, [2014-02-22T23:58:19.879616 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-22T23:58:19.880029 #10043]  INFO -- : Completed 200 OK in 1934ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:58:56.457223 #10041]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-22 23:58:56 +0000
+I, [2014-02-22T23:58:56.459702 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:58:56.459858 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM4746a20b72d3121cd0b182a278ec6caa", "Body"=>"Hungry 06878", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CT", "ToState"=>"IN", "SmsSid"=>"SM4746a20b72d3121cd0b182a278ec6caa", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM4746a20b72d3121cd0b182a278ec6caa", "ApiVersion"=>"2010-04-01", "FromCity"=>"STAMFORD", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+12033261382", "FromZip"=>"06820"}
+I, [2014-02-22T23:58:57.808303 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:58:57.808868 #10041]  INFO -- : Completed 200 OK in 1349ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-22T23:59:14.333442 #10043]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-22 23:59:14 +0000
+I, [2014-02-22T23:59:14.335906 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-22T23:59:14.336066 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMd8dfd0ce3774c0ca5dba143a17752563", "Body"=>"hungry, 06878", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"CT", "ToState"=>"IN", "SmsSid"=>"SMd8dfd0ce3774c0ca5dba143a17752563", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMd8dfd0ce3774c0ca5dba143a17752563", "ApiVersion"=>"2010-04-01", "FromCity"=>"STAMFORD", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+12033261382", "FromZip"=>"06820"}
+I, [2014-02-22T23:59:16.309156 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-22T23:59:16.309659 #10043]  INFO -- : Completed 200 OK in 1973ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:02:57.520479 #10041]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-23 00:02:57 +0000
+I, [2014-02-23T00:02:57.522566 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:02:57.522758 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM81ada3a08e5b40b4adb9bb21478c7c48", "Body"=>"Hungry, Markham", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SM81ada3a08e5b40b4adb9bb21478c7c48", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM81ada3a08e5b40b4adb9bb21478c7c48", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19178222612", "FromZip"=>"10010"}
+I, [2014-02-23T00:02:59.487334 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-23T00:02:59.487755 #10041]  INFO -- : Completed 200 OK in 1965ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:04:55.254021 #10043]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-23 00:04:55 +0000
+I, [2014-02-23T00:04:55.256443 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:04:55.256619 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMe40270cc8ffb93703d568902c9c54cd6", "Body"=>"Hungry, 96819", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"HI", "ToState"=>"IN", "SmsSid"=>"SMe40270cc8ffb93703d568902c9c54cd6", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMe40270cc8ffb93703d568902c9c54cd6", "ApiVersion"=>"2010-04-01", "FromCity"=>"HONOLULU", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18086361775", "FromZip"=>"96712"}
+I, [2014-02-23T00:04:57.271274 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:04:57.271831 #10043]  INFO -- : Completed 200 OK in 2015ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:05:38.101360 #10041]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-23 00:05:38 +0000
+I, [2014-02-23T00:05:38.103972 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:05:38.104189 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9a17ee5c2f6424e8426ee5213cda4ed2", "Body"=>"Hungry, 10025", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SM9a17ee5c2f6424e8426ee5213cda4ed2", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9a17ee5c2f6424e8426ee5213cda4ed2", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19175693715", "FromZip"=>"10279"}
+I, [2014-02-23T00:05:40.148177 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:05:40.148694 #10041]  INFO -- : Completed 200 OK in 2044ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:08:28.863209 #10043]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-23 00:08:28 +0000
+I, [2014-02-23T00:08:28.866102 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:08:28.866320 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM5ac36e7506a7f166b65b72d308c7dfb2", "Body"=>"Thirsty, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NJ", "ToState"=>"IN", "SmsSid"=>"SM5ac36e7506a7f166b65b72d308c7dfb2", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM5ac36e7506a7f166b65b72d308c7dfb2", "ApiVersion"=>"2010-04-01", "FromCity"=>"CAMDEN", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18567459195", "FromZip"=>"08033"}
+I, [2014-02-23T00:08:30.898646 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:08:30.899261 #10043]  INFO -- : Completed 200 OK in 2033ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:09:20.087150 #10041]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-23 00:09:20 +0000
+I, [2014-02-23T00:09:20.089781 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:09:20.090078 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMc4a8e14f6fdb1bebfd9aad7b6cd9c3db", "Body"=>"Thirsty, 20769", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SMc4a8e14f6fdb1bebfd9aad7b6cd9c3db", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMc4a8e14f6fdb1bebfd9aad7b6cd9c3db", "ApiVersion"=>"2010-04-01", "FromCity"=>"SILVER SPRING", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+12408214887", "FromZip"=>"20902"}
+I, [2014-02-23T00:09:22.056335 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.3ms)
+I, [2014-02-23T00:09:22.056954 #10041]  INFO -- : Completed 200 OK in 1967ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:09:36.494021 #10043]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-23 00:09:36 +0000
+I, [2014-02-23T00:09:36.496920 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:09:36.497122 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM1da8607a8e09eaa314f7569905c31f31", "Body"=>"Hungry, 21136", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM1da8607a8e09eaa314f7569905c31f31", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM1da8607a8e09eaa314f7569905c31f31", "ApiVersion"=>"2010-04-01", "FromCity"=>"CATONSVILLE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+14102944707", "FromZip"=>"21060"}
+I, [2014-02-23T00:09:38.453797 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:09:38.454342 #10043]  INFO -- : Completed 200 OK in 1957ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:09:53.768660 #10041]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-23 00:09:53 +0000
+I, [2014-02-23T00:09:53.771197 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:09:53.771392 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMa49b9132f033257baee1ea5c150acda6", "Body"=>"Thirsty, 21136", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SMa49b9132f033257baee1ea5c150acda6", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMa49b9132f033257baee1ea5c150acda6", "ApiVersion"=>"2010-04-01", "FromCity"=>"CATONSVILLE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+14102944707", "FromZip"=>"21060"}
+I, [2014-02-23T00:09:57.190700 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-23T00:09:57.191096 #10041]  INFO -- : Completed 200 OK in 3420ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:10:08.447316 #10043]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-23 00:10:08 +0000
+I, [2014-02-23T00:10:08.449530 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:10:08.449684 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMdf9692ed1a3007def6e60a84f8cb009d", "Body"=>"Thirsty, 17011", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NJ", "ToState"=>"IN", "SmsSid"=>"SMdf9692ed1a3007def6e60a84f8cb009d", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMdf9692ed1a3007def6e60a84f8cb009d", "ApiVersion"=>"2010-04-01", "FromCity"=>"CAMDEN", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18567459195", "FromZip"=>"08033"}
+I, [2014-02-23T00:10:09.636429 #10041]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-23 00:10:09 +0000
+I, [2014-02-23T00:10:09.638645 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:10:09.638809 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM52625c9d0c4497efc46abbe3fb69a336", "Body"=>"Thirsty, 10025", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM52625c9d0c4497efc46abbe3fb69a336", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM52625c9d0c4497efc46abbe3fb69a336", "ApiVersion"=>"2010-04-01", "FromCity"=>"SILVER SPRING", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+12408214887", "FromZip"=>"20902"}
+I, [2014-02-23T00:10:10.434047 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:10:10.434510 #10043]  INFO -- : Completed 200 OK in 1985ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:10:11.712378 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:10:11.713280 #10041]  INFO -- : Completed 200 OK in 2074ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:13:24.560417 #10043]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-23 00:13:24 +0000
+I, [2014-02-23T00:13:24.562883 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:13:24.563056 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM7673a2a9757f0cf166fa94370d4e270a", "Body"=>"Hungry, 08550", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NJ", "ToState"=>"IN", "SmsSid"=>"SM7673a2a9757f0cf166fa94370d4e270a", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM7673a2a9757f0cf166fa94370d4e270a", "ApiVersion"=>"2010-04-01", "FromCity"=>"PLAINSBORO", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16097213458", "FromZip"=>"08536"}
+I, [2014-02-23T00:13:26.492783 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:13:26.493837 #10043]  INFO -- : Completed 200 OK in 1931ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:13:28.731740 #10041]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-23 00:13:28 +0000
+I, [2014-02-23T00:13:28.734309 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:13:28.734502 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM8cc6b67397be1210b31635484b0f75d0", "Body"=>"Hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NJ", "ToState"=>"IN", "SmsSid"=>"SM8cc6b67397be1210b31635484b0f75d0", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM8cc6b67397be1210b31635484b0f75d0", "ApiVersion"=>"2010-04-01", "FromCity"=>"PLAINSBORO", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+16097213528", "FromZip"=>"08536"}
+I, [2014-02-23T00:13:30.726558 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:13:30.727048 #10041]  INFO -- : Completed 200 OK in 1992ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:14:44.792971 #10043]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-23 00:14:44 +0000
+I, [2014-02-23T00:14:44.795329 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:14:44.795485 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMf6443cf08b1cf8e3947848e947464463", "Body"=>"Thirsty, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"VA", "ToState"=>"IN", "SmsSid"=>"SMf6443cf08b1cf8e3947848e947464463", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMf6443cf08b1cf8e3947848e947464463", "ApiVersion"=>"2010-04-01", "FromCity"=>"LEESBURG", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15712588956", "FromZip"=>"20176"}
+I, [2014-02-23T00:14:46.867603 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:14:46.868149 #10043]  INFO -- : Completed 200 OK in 2072ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:19:09.400784 #10041]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-23 00:19:09 +0000
+I, [2014-02-23T00:19:09.403214 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:19:09.403377 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM0142edd2cf057332516f8267fefdb4b1", "Body"=>"Hungry, 07626", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NJ", "ToState"=>"IN", "SmsSid"=>"SM0142edd2cf057332516f8267fefdb4b1", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM0142edd2cf057332516f8267fefdb4b1", "ApiVersion"=>"2010-04-01", "FromCity"=>"JERSEY CITY", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+12019376607", "FromZip"=>"07304"}
+I, [2014-02-23T00:19:11.354331 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:19:11.354811 #10041]  INFO -- : Completed 200 OK in 1951ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:25:17.763220 #10043]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-23 00:25:17 +0000
+I, [2014-02-23T00:25:17.765826 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:25:17.766031 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM692ce2fe7abd51c75bf9b6abcd770048", "Body"=>"Hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MN", "ToState"=>"IN", "SmsSid"=>"SM692ce2fe7abd51c75bf9b6abcd770048", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM692ce2fe7abd51c75bf9b6abcd770048", "ApiVersion"=>"2010-04-01", "FromCity"=>"MINNEAPOLIS", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19524571679", "FromZip"=>"55337"}
+I, [2014-02-23T00:25:19.766024 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:25:19.766431 #10043]  INFO -- : Completed 200 OK in 2000ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:33:47.956249 #10041]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-23 00:33:47 +0000
+I, [2014-02-23T00:33:47.958624 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:33:47.958800 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM3e773f5be7162e472c546702afaf3750", "Body"=>"Hungry, 90210", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SM3e773f5be7162e472c546702afaf3750", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM3e773f5be7162e472c546702afaf3750", "ApiVersion"=>"2010-04-01", "FromCity"=>"HOUSTON", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18327447142", "FromZip"=>"77032"}
+I, [2014-02-23T00:33:50.011546 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.4ms)
+I, [2014-02-23T00:33:50.012020 #10041]  INFO -- : Completed 200 OK in 2053ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:34:24.080694 #10043]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-23 00:34:24 +0000
+I, [2014-02-23T00:34:24.083008 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:34:24.083192 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMaba35eddc427c30037750489377c76ee", "Body"=>"Thirsty, 10026", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SMaba35eddc427c30037750489377c76ee", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMaba35eddc427c30037750489377c76ee", "ApiVersion"=>"2010-04-01", "FromCity"=>"HOUSTON", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18327447142", "FromZip"=>"77032"}
+I, [2014-02-23T00:34:26.131692 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:34:26.132172 #10043]  INFO -- : Completed 200 OK in 2049ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T00:57:27.839185 #10041]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-23 00:57:27 +0000
+I, [2014-02-23T00:57:27.841372 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T00:57:27.841570 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM1c7d4a712da105c50fbe423a0710c67f", "Body"=>"Hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SM1c7d4a712da105c50fbe423a0710c67f", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM1c7d4a712da105c50fbe423a0710c67f", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19175950958", "FromZip"=>"10028"}
+I, [2014-02-23T00:57:29.875741 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T00:57:29.876264 #10041]  INFO -- : Completed 200 OK in 2034ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T01:05:56.677857 #10043]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-23 01:05:56 +0000
+I, [2014-02-23T01:05:56.680159 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T01:05:56.680337 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMaa360f74bbcd9270c30d7a17e8e1f8df", "Body"=>"hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"OH", "ToState"=>"IN", "SmsSid"=>"SMaa360f74bbcd9270c30d7a17e8e1f8df", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMaa360f74bbcd9270c30d7a17e8e1f8df", "ApiVersion"=>"2010-04-01", "FromCity"=>"OXFORD", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+15134613012", "FromZip"=>"45056"}
+I, [2014-02-23T01:05:58.776633 #10041]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-23 01:05:58 +0000
+I, [2014-02-23T01:05:58.779051 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T01:05:58.779209 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM340aacabd44ec2923922fe3c56b951a7", "Body"=>"hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"FL", "ToState"=>"IN", "SmsSid"=>"SM340aacabd44ec2923922fe3c56b951a7", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM340aacabd44ec2923922fe3c56b951a7", "ApiVersion"=>"2010-04-01", "FromCity"=>"CLEARWATER", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+17275106205", "FromZip"=>"33765"}
+I, [2014-02-23T01:05:58.979841 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T01:05:58.980338 #10043]  INFO -- : Completed 200 OK in 2300ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T01:06:00.721163 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T01:06:00.721657 #10041]  INFO -- : Completed 200 OK in 1942ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T02:18:45.006307 #10043]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-23 02:18:45 +0000
+I, [2014-02-23T02:18:45.008396 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T02:18:45.008547 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMd0364287042576ccbaff74f79d11c17a", "Body"=>"hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SMd0364287042576ccbaff74f79d11c17a", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMd0364287042576ccbaff74f79d11c17a", "ApiVersion"=>"2010-04-01", "FromCity"=>"BALTIMORE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+14435706884", "FromZip"=>"21220"}
+I, [2014-02-23T02:18:47.314649 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T02:18:47.315220 #10043]  INFO -- : Completed 200 OK in 2306ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T02:19:03.755203 #10041]  INFO -- : Started POST "/hungry" for 54.205.171.43 at 2014-02-23 02:19:03 +0000
+I, [2014-02-23T02:19:03.761589 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T02:19:03.761875 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM45baae4ee1e9054ebc7ca64dda92f1a2", "Body"=>"hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM45baae4ee1e9054ebc7ca64dda92f1a2", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM45baae4ee1e9054ebc7ca64dda92f1a2", "ApiVersion"=>"2010-04-01", "FromCity"=>"BALTIMORE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+14435706884", "FromZip"=>"21220"}
+I, [2014-02-23T02:19:05.983767 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T02:19:05.984310 #10041]  INFO -- : Completed 200 OK in 2222ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T03:20:19.159856 #10043]  INFO -- : Started HEAD "/" for 217.76.208.27 at 2014-02-23 03:20:19 +0000
+I, [2014-02-23T03:20:19.162172 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-23T03:20:19.163858 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.3ms)
+I, [2014-02-23T03:20:19.165436 #10043]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T03:31:32.971957 #10041]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-23 03:31:32 +0000
+I, [2014-02-23T03:31:32.974582 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T03:31:32.974774 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM4b6698b1808cd22abe4f15317f35af0d", "Body"=>"Hungry,20854", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM4b6698b1808cd22abe4f15317f35af0d", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM4b6698b1808cd22abe4f15317f35af0d", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571828", "FromZip"=>"20708"}
+I, [2014-02-23T03:31:35.242530 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T03:31:35.242964 #10041]  INFO -- : Completed 200 OK in 2268ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T03:32:38.888112 #10043]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-23 03:32:38 +0000
+I, [2014-02-23T03:32:38.890375 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T03:32:38.890616 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM7bc3b58862e52630768558d2262a896e", "Body"=>"Hungry,20854", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM7bc3b58862e52630768558d2262a896e", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM7bc3b58862e52630768558d2262a896e", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-23T03:32:41.145455 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T03:32:41.146168 #10043]  INFO -- : Completed 200 OK in 2255ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T05:14:34.147995 #10041]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-23 05:14:34 +0000
+I, [2014-02-23T05:14:34.150517 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T05:14:34.150682 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMb5e448ce50ea33361bc6572202afd521", "Body"=>"Hungry, Markham", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"NY", "ToState"=>"IN", "SmsSid"=>"SMb5e448ce50ea33361bc6572202afd521", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMb5e448ce50ea33361bc6572202afd521", "ApiVersion"=>"2010-04-01", "FromCity"=>"NEW YORK", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19178222612", "FromZip"=>"10010"}
+I, [2014-02-23T05:14:36.358116 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.8ms)
+I, [2014-02-23T05:14:36.358604 #10041]  INFO -- : Completed 200 OK in 2208ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T05:30:08.840487 #10043]  INFO -- : Started GET "/manager/html" for 218.25.174.66 at 2014-02-23 05:30:08 +0000
+F, [2014-02-23T05:30:08.844237 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/manager/html"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-23T11:00:30.683882 #10041]  INFO -- : Started GET "/" for 80.82.65.57 at 2014-02-23 11:00:30 +0000
+I, [2014-02-23T11:00:30.686324 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-23T11:00:30.687728 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-23T11:00:30.689283 #10041]  INFO -- : Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T11:32:51.257001 #10043]  INFO -- : Started GET "/search?q=site%3Awp.pl" for 185.25.149.30 at 2014-02-23 11:32:51 +0000
+F, [2014-02-23T11:32:51.260168 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/search"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-23T16:11:56.402711 #10043]  INFO -- : Started GET "/" for 198.20.99.130 at 2014-02-23 16:11:56 +0000
+I, [2014-02-23T16:11:56.404858 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-23T16:11:56.406452 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-23T16:11:56.408048 #10043]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T18:38:51.145748 #10041]  INFO -- : Started POST "/hungry" for 107.20.31.179 at 2014-02-23 18:38:51 +0000
+I, [2014-02-23T18:38:51.147842 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T18:38:51.148044 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMf05777502b75fd4625850e0f7663a61b", "Body"=>"Hungry, 77077", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SMf05777502b75fd4625850e0f7663a61b", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMf05777502b75fd4625850e0f7663a61b", "ApiVersion"=>"2010-04-01", "FromCity"=>"HOUSTON", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18324752143", "FromZip"=>"77032"}
+I, [2014-02-23T18:38:53.472800 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T18:38:53.473353 #10041]  INFO -- : Completed 200 OK in 2325ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T18:39:09.415494 #10043]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-23 18:39:09 +0000
+I, [2014-02-23T18:39:09.417705 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T18:39:09.417955 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMa147c46f9936038cdf7e5027471e06cd", "Body"=>"Hungry, 77077", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SMa147c46f9936038cdf7e5027471e06cd", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMa147c46f9936038cdf7e5027471e06cd", "ApiVersion"=>"2010-04-01", "FromCity"=>"HOUSTON", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18324752143", "FromZip"=>"77032"}
+I, [2014-02-23T18:39:11.365348 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T18:39:11.365851 #10043]  INFO -- : Completed 200 OK in 1948ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T18:39:22.610501 #10041]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-23 18:39:22 +0000
+I, [2014-02-23T18:39:22.612880 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T18:39:22.613034 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM908a37eadfdb0863d2d0c7ee24d07bc6", "Body"=>"Hungry, 75230", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SM908a37eadfdb0863d2d0c7ee24d07bc6", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM908a37eadfdb0863d2d0c7ee24d07bc6", "ApiVersion"=>"2010-04-01", "FromCity"=>"DALLAS", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+19728090327", "FromZip"=>"75053"}
+I, [2014-02-23T18:39:24.598835 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-23T18:39:24.599280 #10041]  INFO -- : Completed 200 OK in 1986ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T18:39:28.058645 #10043]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-23 18:39:28 +0000
+I, [2014-02-23T18:39:28.060477 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T18:39:28.060602 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM9af4d234f212902da16328c00338e970", "Body"=>"Thirsty, 77077", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SM9af4d234f212902da16328c00338e970", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM9af4d234f212902da16328c00338e970", "ApiVersion"=>"2010-04-01", "FromCity"=>"HOUSTON", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18324752143", "FromZip"=>"77032"}
+I, [2014-02-23T18:39:30.036389 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T18:39:30.036888 #10043]  INFO -- : Completed 200 OK in 1976ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T18:39:41.549784 #10041]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-23 18:39:41 +0000
+I, [2014-02-23T18:39:41.551937 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T18:39:41.552089 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM2dc52fdd5b0b24fffc9bad1cdb22c0d1", "Body"=>"Hungry, 77042", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SM2dc52fdd5b0b24fffc9bad1cdb22c0d1", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM2dc52fdd5b0b24fffc9bad1cdb22c0d1", "ApiVersion"=>"2010-04-01", "FromCity"=>"HOUSTON", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18324752143", "FromZip"=>"77032"}
+I, [2014-02-23T18:39:43.502446 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T18:39:43.502903 #10041]  INFO -- : Completed 200 OK in 1951ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T18:58:20.856220 #10043]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-23 18:58:20 +0000
+I, [2014-02-23T18:58:20.858994 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T18:58:20.859225 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM55d9a6abfaa54d74b162db6a87f78d0d", "Body"=>"hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM55d9a6abfaa54d74b162db6a87f78d0d", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM55d9a6abfaa54d74b162db6a87f78d0d", "ApiVersion"=>"2010-04-01", "FromCity"=>"BALTIMORE", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+14435706884", "FromZip"=>"21220"}
+I, [2014-02-23T18:58:23.155282 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-23T18:58:23.155782 #10043]  INFO -- : Completed 200 OK in 2296ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T20:27:42.015508 #10041]  INFO -- : Started GET "/" for 80.82.65.57 at 2014-02-23 20:27:42 +0000
+I, [2014-02-23T20:27:42.017650 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-23T20:27:42.019146 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-23T20:27:42.020614 #10041]  INFO -- : Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T21:17:35.468573 #10043]  INFO -- : Started POST "/hungry" for 54.227.29.102 at 2014-02-23 21:17:35 +0000
+I, [2014-02-23T21:17:35.470937 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T21:17:35.471095 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM7f68ba8f62601363e373a49f15a14175", "Body"=>"Hungry,27594", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM7f68ba8f62601363e373a49f15a14175", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM7f68ba8f62601363e373a49f15a14175", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-23T21:17:37.385142 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T21:17:37.385646 #10043]  INFO -- : Completed 200 OK in 1914ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-23T21:17:58.181768 #10041]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-23 21:17:58 +0000
+I, [2014-02-23T21:17:58.183795 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-23T21:17:58.184001 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMd85aed4a5103cd0b650f8565a7775a77", "Body"=>"Hungry,83619", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SMd85aed4a5103cd0b650f8565a7775a77", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMd85aed4a5103cd0b650f8565a7775a77", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-23T21:18:00.107461 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-23T21:18:00.107984 #10041]  INFO -- : Completed 200 OK in 1924ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T00:33:38.855329 #10043]  INFO -- : Started POST "/hungry" for 107.21.178.52 at 2014-02-24 00:33:38 +0000
+I, [2014-02-24T00:33:38.857853 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-24T00:33:38.858149 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMddf7129cad2f989872f371ff0b721de7", "Body"=>"Thirsty,10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SMddf7129cad2f989872f371ff0b721de7", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMddf7129cad2f989872f371ff0b721de7", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-24T00:33:40.908694 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-24T00:33:40.909247 #10043]  INFO -- : Completed 200 OK in 2051ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T00:34:04.819087 #10041]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-24 00:34:04 +0000
+I, [2014-02-24T00:34:04.821355 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-24T00:34:04.821535 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM0b48905a450adb488d7b95b927ab6065", "Body"=>"Hungry, 91387", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM0b48905a450adb488d7b95b927ab6065", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM0b48905a450adb488d7b95b927ab6065", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-24T00:34:06.801745 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-24T00:34:06.802308 #10041]  INFO -- : Completed 200 OK in 1981ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T00:34:36.526952 #10043]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-24 00:34:36 +0000
+I, [2014-02-24T00:34:36.529385 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-24T00:34:36.530645 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM1659230b6f1768890c41cf9fe23f1c2e", "Body"=>"Hungry, 91351", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM1659230b6f1768890c41cf9fe23f1c2e", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM1659230b6f1768890c41cf9fe23f1c2e", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-24T00:34:38.932475 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-24T00:34:38.932904 #10043]  INFO -- : Completed 200 OK in 2402ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T00:35:14.531081 #10041]  INFO -- : Started POST "/hungry" for 54.204.233.41 at 2014-02-24 00:35:14 +0000
+I, [2014-02-24T00:35:14.533735 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-24T00:35:14.533992 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM200d72f484f64051f90e688c1adf3d50", "Body"=>"Hungry, 91423", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM200d72f484f64051f90e688c1adf3d50", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM200d72f484f64051f90e688c1adf3d50", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-24T00:35:16.548337 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-24T00:35:16.548861 #10041]  INFO -- : Completed 200 OK in 2015ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T00:35:52.219092 #10043]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-24 00:35:52 +0000
+I, [2014-02-24T00:35:52.221648 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-24T00:35:52.221870 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM2de234215a550331a39280c8715abc1b", "Body"=>"Thirsty, 91387", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM2de234215a550331a39280c8715abc1b", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM2de234215a550331a39280c8715abc1b", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-24T00:35:54.285046 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-24T00:35:54.285518 #10043]  INFO -- : Completed 200 OK in 2063ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T00:36:23.095535 #10041]  INFO -- : Started POST "/hungry" for 107.20.13.132 at 2014-02-24 00:36:23 +0000
+I, [2014-02-24T00:36:23.099315 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-24T00:36:23.100163 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM5060512565e67e256a37c8aef1276744", "Body"=>"Hungry, 91387", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"MD", "ToState"=>"IN", "SmsSid"=>"SM5060512565e67e256a37c8aef1276744", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM5060512565e67e256a37c8aef1276744", "ApiVersion"=>"2010-04-01", "FromCity"=>"LAUREL", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+13019571830", "FromZip"=>"20708"}
+I, [2014-02-24T00:36:25.026937 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-24T00:36:25.027384 #10041]  INFO -- : Completed 200 OK in 1927ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T01:35:10.889175 #10043]  INFO -- : Started GET "/cgi-bin/rtpd.cgi?/bin/busybox" for 58.54.160.97 at 2014-02-24 01:35:10 +0000
+F, [2014-02-24T01:35:10.892411 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/cgi-bin/rtpd.cgi"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-24T08:05:54.334855 #10041]  INFO -- : Started GET "/cgi-bin/rtpd.cgi?/bin/busybox" for 150.255.141.68 at 2014-02-24 08:05:54 +0000
+F, [2014-02-24T08:05:54.337786 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/cgi-bin/rtpd.cgi"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-24T08:17:32.506686 #10043]  INFO -- : Started HEAD "/" for 62.96.158.205 at 2014-02-24 08:17:32 +0000
+I, [2014-02-24T08:17:32.508669 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-24T08:17:32.510205 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.3ms)
+I, [2014-02-24T08:17:32.511938 #10043]  INFO -- : Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T08:30:48.686629 #10041]  INFO -- : Started HEAD "/" for 200.198.201.121 at 2014-02-24 08:30:48 +0000
+I, [2014-02-24T08:30:48.688432 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-24T08:30:48.689737 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-24T08:30:48.691200 #10041]  INFO -- : Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T10:38:22.382542 #10043]  INFO -- : Started GET "/wp-admin/install.php" for 146.185.156.136 at 2014-02-24 10:38:22 +0000
+F, [2014-02-24T10:38:22.386055 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/wp-admin/install.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-24T13:22:26.716481 #10043]  INFO -- : Started HEAD "/" for 190.85.100.194 at 2014-02-24 13:22:26 +0000
+I, [2014-02-24T13:22:26.717990 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-24T13:22:26.719092 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-02-24T13:22:26.720215 #10043]  INFO -- : Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T17:41:13.853779 #10041]  INFO -- : Started GET "/" for 141.212.121.224 at 2014-02-24 17:41:13 +0000
+I, [2014-02-24T17:41:13.855328 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-24T17:41:13.856438 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-02-24T17:41:13.857583 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T18:27:51.519802 #10043]  INFO -- : Started POST "/hungry" for 107.22.67.56 at 2014-02-24 18:27:51 +0000
+I, [2014-02-24T18:27:51.521456 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-24T18:27:51.521631 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SMee270e35690f8db8e21b0c2476aa905d", "Body"=>"Hungry 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SMee270e35690f8db8e21b0c2476aa905d", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SMee270e35690f8db8e21b0c2476aa905d", "ApiVersion"=>"2010-04-01", "FromCity"=>"HOUSTON", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18324752143", "FromZip"=>"77032"}
+I, [2014-02-24T18:27:52.891373 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-24T18:27:52.891931 #10043]  INFO -- : Completed 200 OK in 1370ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T18:28:07.654133 #10041]  INFO -- : Started POST "/hungry" for 54.196.190.166 at 2014-02-24 18:28:07 +0000
+I, [2014-02-24T18:28:07.656020 #10041]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-24T18:28:07.656182 #10041]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM917ca54cc7f89aea06d51d26482844f4", "Body"=>"Hungry, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SM917ca54cc7f89aea06d51d26482844f4", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM917ca54cc7f89aea06d51d26482844f4", "ApiVersion"=>"2010-04-01", "FromCity"=>"HOUSTON", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18324752143", "FromZip"=>"77032"}
+I, [2014-02-24T18:28:09.647070 #10041]  INFO -- :   Rendered home/sms_reply.xml.erb (0.2ms)
+I, [2014-02-24T18:28:09.647504 #10041]  INFO -- : Completed 200 OK in 1991ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T18:28:22.730941 #10043]  INFO -- : Started POST "/hungry" for 54.196.4.160 at 2014-02-24 18:28:22 +0000
+I, [2014-02-24T18:28:22.733345 #10043]  INFO -- : Processing by HomeController#sms_reply as HTML
+I, [2014-02-24T18:28:22.733553 #10043]  INFO -- :   Parameters: {"AccountSid"=>"ACed42f6f15ced2145eb72ddda4062d95c", "MessageSid"=>"SM67bd95192199c2e31df8e3eb167d0e1c", "Body"=>"Thirsty, 10027", "ToZip"=>"46929", "ToCity"=>"FLORA", "FromState"=>"TX", "ToState"=>"IN", "SmsSid"=>"SM67bd95192199c2e31df8e3eb167d0e1c", "To"=>"+15746554399", "ToCountry"=>"US", "FromCountry"=>"US", "SmsMessageSid"=>"SM67bd95192199c2e31df8e3eb167d0e1c", "ApiVersion"=>"2010-04-01", "FromCity"=>"HOUSTON", "SmsStatus"=>"received", "NumMedia"=>"0", "From"=>"+18324752143", "FromZip"=>"77032"}
+I, [2014-02-24T18:28:24.778710 #10043]  INFO -- :   Rendered home/sms_reply.xml.erb (0.1ms)
+I, [2014-02-24T18:28:24.779091 #10043]  INFO -- : Completed 200 OK in 2045ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-24T18:32:35.044685 #10041]  INFO -- : Started HEAD "/" for 190.134.95.171 at 2014-02-24 18:32:35 +0000
+I, [2014-02-24T18:32:35.046628 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-24T18:32:35.047875 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-24T18:32:35.049153 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-02-25T02:51:13.410853 #10041]  INFO -- : Started HEAD "/" for 209.236.75.75 at 2014-02-25 02:51:13 +0000
+I, [2014-02-25T02:51:13.412461 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-25T02:51:13.413705 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-25T02:51:13.415093 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-25T03:12:32.425451 #10043]  INFO -- : Started GET "/w00tw00t.at.blackhats.romanian.anti-sec:)" for 64.15.159.21 at 2014-02-25 03:12:32 +0000
+F, [2014-02-25T03:12:32.428566 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/w00tw00t.at.blackhats.romanian.anti-sec:)"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T03:12:32.452867 #10041]  INFO -- : Started GET "/phpMyAdmin/scripts/setup.php" for 64.15.159.21 at 2014-02-25 03:12:32 +0000
+F, [2014-02-25T03:12:32.456016 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/phpMyAdmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T03:12:32.479234 #10043]  INFO -- : Started GET "/phpmyadmin/scripts/setup.php" for 64.15.159.21 at 2014-02-25 03:12:32 +0000
+F, [2014-02-25T03:12:32.482211 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/phpmyadmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T03:12:32.506091 #10041]  INFO -- : Started GET "/pma/scripts/setup.php" for 64.15.159.21 at 2014-02-25 03:12:32 +0000
+F, [2014-02-25T03:12:32.509523 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/pma/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T03:12:32.531855 #10043]  INFO -- : Started GET "/myadmin/scripts/setup.php" for 64.15.159.21 at 2014-02-25 03:12:32 +0000
+F, [2014-02-25T03:12:32.534731 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/myadmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T03:12:32.558048 #10041]  INFO -- : Started GET "/MyAdmin/scripts/setup.php" for 64.15.159.21 at 2014-02-25 03:12:32 +0000
+F, [2014-02-25T03:12:32.561065 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/MyAdmin/scripts/setup.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T05:11:18.870624 #10041]  INFO -- : Started POST "/azenv.php?rand=4c11c7e2cf76a355bcd2a57cd7be676e" for 5.178.86.77 at 2014-02-25 05:11:18 +0000
+F, [2014-02-25T05:11:18.873109 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/azenv.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T05:31:10.695406 #10043]  INFO -- : Started GET "/CFIDE/administrator/" for 50.21.180.194 at 2014-02-25 05:31:10 +0000
+F, [2014-02-25T05:31:10.697863 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/CFIDE/administrator"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T06:46:28.100428 #10041]  INFO -- : Started GET "/" for 80.82.65.57 at 2014-02-25 06:46:28 +0000
+I, [2014-02-25T06:46:28.101921 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-25T06:46:28.103113 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-02-25T06:46:28.104187 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-02-25T08:18:00.522989 #10041]  INFO -- : Started GET "/myip" for 144.76.162.106 at 2014-02-25 08:18:00 +0000
+F, [2014-02-25T08:18:00.526146 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/myip"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T08:18:00.712479 #10043]  INFO -- : Started GET "/myip" for 144.76.162.106 at 2014-02-25 08:18:00 +0000
+F, [2014-02-25T08:18:00.715389 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/myip"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T12:58:25.942779 #10041]  INFO -- : Started GET "/manager/html" for 222.186.34.149 at 2014-02-25 12:58:25 +0000
+F, [2014-02-25T12:58:25.945147 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/manager/html"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-25T18:08:45.184666 #10043]  INFO -- : Started HEAD "/" for 54.251.250.163 at 2014-02-25 18:08:45 +0000
+I, [2014-02-25T18:08:45.186989 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-25T18:08:45.188483 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-25T18:08:45.190956 #10043]  INFO -- : Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-25T20:35:25.813331 #10043]  INFO -- : Started HEAD "/" for 54.195.106.158 at 2014-02-25 20:35:25 +0000
+I, [2014-02-25T20:35:25.815432 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-25T20:35:25.816872 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-25T20:35:25.818790 #10043]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-26T01:19:02.620447 #10043]  INFO -- : Started HEAD "/" for 200.44.159.115 at 2014-02-26 01:19:02 +0000
+I, [2014-02-26T01:19:02.622100 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-26T01:19:02.623393 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-26T01:19:02.624679 #10043]  INFO -- : Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-26T03:30:10.163867 #10041]  INFO -- : Started HEAD "/" for 212.126.3.219 at 2014-02-26 03:30:10 +0000
+I, [2014-02-26T03:30:10.166015 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-26T03:30:10.167736 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-26T03:30:10.169089 #10041]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-26T03:31:29.227169 #10043]  INFO -- : Started POST "/azenv.php?rand=fa02a68edfc74f8f81631f559967bbd4" for 5.178.86.77 at 2014-02-26 03:31:29 +0000
+F, [2014-02-26T03:31:29.230330 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/azenv.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-26T04:42:59.595939 #10041]  INFO -- : Started GET "/wp-admin/install.php" for 198.199.120.141 at 2014-02-26 04:42:59 +0000
+F, [2014-02-26T04:42:59.598896 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/wp-admin/install.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-26T06:38:16.268810 #10043]  INFO -- : Started HEAD "/" for 200.98.128.200 at 2014-02-26 06:38:16 +0000
+I, [2014-02-26T06:38:16.271028 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-26T06:38:16.272725 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-26T06:38:16.274225 #10043]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+I, [2014-02-26T07:42:57.844459 #10041]  INFO -- : Started POST "/azenv.php?rand=7b3ffca7c63ab514918bfb26e790e6da" for 5.178.86.77 at 2014-02-26 07:42:57 +0000
+F, [2014-02-26T07:42:57.847485 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/azenv.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-26T09:05:26.445081 #10041]  INFO -- : Started GET "/" for 141.212.121.232 at 2014-02-26 09:05:26 +0000
+I, [2014-02-26T09:05:26.446902 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-26T09:05:26.448230 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-26T09:05:26.449495 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-26T10:47:55.950754 #10043]  INFO -- : Started HEAD "/" for 64.71.157.66 at 2014-02-26 10:47:55 +0000
+I, [2014-02-26T10:47:55.952335 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-26T10:47:55.957748 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-02-26T10:47:55.959264 #10043]  INFO -- : Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+I, [2014-02-26T15:58:29.461162 #10041]  INFO -- : Started HEAD "/" for 193.93.241.17 at 2014-02-26 15:58:29 +0000
+I, [2014-02-26T15:58:29.462637 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-26T15:58:29.463735 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-02-26T15:58:29.464823 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-02-26T18:07:12.457510 #10043]  INFO -- : Started POST "/cgi-bin/php?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E" for 118.117.208.162 at 2014-02-26 18:07:12 +0000
+F, [2014-02-26T18:07:12.461651 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/cgi-bin/php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-26T18:07:13.054674 #10041]  INFO -- : Started POST "/cgi-bin/php5?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E" for 118.117.208.162 at 2014-02-26 18:07:13 +0000
+F, [2014-02-26T18:07:13.058169 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/cgi-bin/php5"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-26T18:07:13.648761 #10043]  INFO -- : Started POST "/cgi-bin/php-cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E" for 118.117.208.162 at 2014-02-26 18:07:13 +0000
+F, [2014-02-26T18:07:13.651645 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/cgi-bin/php-cgi"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-26T18:07:14.237739 #10041]  INFO -- : Started POST "/cgi-bin/php.cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E" for 118.117.208.162 at 2014-02-26 18:07:14 +0000
+F, [2014-02-26T18:07:14.242723 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/cgi-bin/php.cgi"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-26T18:07:14.831061 #10043]  INFO -- : Started POST "/cgi-bin/php4?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E" for 118.117.208.162 at 2014-02-26 18:07:14 +0000
+F, [2014-02-26T18:07:14.835017 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/cgi-bin/php4"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-26T23:35:13.836281 #10041]  INFO -- : Started HEAD "/" for 94.23.2.74 at 2014-02-26 23:35:13 +0000
+I, [2014-02-26T23:35:13.837624 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-26T23:35:13.838669 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-02-26T23:35:13.839689 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+I, [2014-02-27T03:40:57.836828 #10043]  INFO -- : Started GET "/cgi-bin/rtpd.cgi?/bin/busybox" for 125.75.246.229 at 2014-02-27 03:40:57 +0000
+F, [2014-02-27T03:40:57.840532 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/cgi-bin/rtpd.cgi"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-28T10:01:19.467780 #10041]  INFO -- : Started HEAD "/" for 178.33.158.65 at 2014-02-28 10:01:19 +0000
+I, [2014-02-28T10:01:19.469577 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-28T10:01:19.471000 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-28T10:01:19.472317 #10041]  INFO -- : Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-28T16:02:58.924243 #10043]  INFO -- : Started POST "/azenv.php?rand=a02f17de2295c575d4b797350b50637b" for 5.178.86.77 at 2014-02-28 16:02:58 +0000
+F, [2014-02-28T16:02:58.927254 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/azenv.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-02-28T20:00:46.073296 #10041]  INFO -- : Started HEAD "/" for 84.52.64.236 at 2014-02-28 20:00:46 +0000
+I, [2014-02-28T20:00:46.075040 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-02-28T20:00:46.076350 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-02-28T20:00:46.077677 #10041]  INFO -- : Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-02-28T21:15:04.876769 #10043]  INFO -- : Started GET "/fish.jpg?&t=4426" for 54.213.235.79 at 2014-02-28 21:15:04 +0000
+F, [2014-02-28T21:15:04.881953 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/fish.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-03-01T00:25:20.678029 #10041]  INFO -- : Started HEAD "/" for 200.98.128.200 at 2014-03-01 00:25:20 +0000
+I, [2014-03-01T00:25:20.679764 #10041]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-03-01T00:25:20.681165 #10041]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.2ms)
+I, [2014-03-01T00:25:20.682603 #10041]  INFO -- : Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-03-01T03:33:05.850797 #10043]  INFO -- : Started GET "/" for 141.212.121.240 at 2014-03-01 03:33:05 +0000
+I, [2014-03-01T03:33:05.852250 #10043]  INFO -- : Processing by HomeController#index as HTML
+I, [2014-03-01T03:33:05.853366 #10043]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2014-03-01T03:33:05.854603 #10043]  INFO -- : Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-03-01T03:58:27.086726 #10041]  INFO -- : Started POST "/azenv.php?rand=044ba1ea9a67a81fbb1d3224ba105aa4" for 5.178.86.77 at 2014-03-01 03:58:27 +0000
+F, [2014-03-01T03:58:27.089701 #10041] FATAL -- : 
+ActionController::RoutingError (No route matches [POST] "/azenv.php"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-03-01T04:34:51.630324 #10043]  INFO -- : Started GET "/fish.jpg?&t=4426" for 54.186.8.60 at 2014-03-01 04:34:51 +0000
+F, [2014-03-01T04:34:51.632614 #10043] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/fish.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:660:in `worker_loop'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:527:in `spawn_missing_workers'
+  unicorn (4.7.0) lib/unicorn/http_server.rb:153:in `start'
+  unicorn (4.7.0) bin/unicorn:126:in `<top (required)>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `load'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/unicorn:23:in `<main>'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+  /usr/local/rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+
+
