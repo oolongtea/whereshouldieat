@@ -1,5 +1,7 @@
+## Sorry, service is not live.
+
 ## Instructions:
-  + send this: "hungry, 10027" to (574)655-4399
+  + send this: "hungry, 10027" to (###)###-####
     + you'll receive a random restaurant location in that zip code
   + full instructions: http://bit.ly/givemefood
 
