@@ -1,6 +1,6 @@
 ## Sorry, service is not live.
 
-![screenshot](https://www.dropbox.com/s/w8g4tvwo4rngnmc/screenshot.jpg)
+## [Screenshot of Demo](https://www.dropbox.com/s/w8g4tvwo4rngnmc/screenshot.jpg)
 
 ## Instructions:
   + send this: "hungry, 10027" to (###)###-####
